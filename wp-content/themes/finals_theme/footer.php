@@ -26,6 +26,24 @@
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+	<footer class="footer-section" id="footer-section">
+		<div class="footer-holder">
+			<div class="site-wrapper">
+				<div class="first-footer" id="first-footer">
+					<div>
+
+					</div>
+					<div>
+						
+					</div>
+				</div>
+				<div class="second-footer" id="second-footer">
+
+				</div>
+				
+			</div>
+		</div>	
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
