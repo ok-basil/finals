@@ -162,4 +162,13 @@ button {
 	width: 42%;
 }
 
+.footer-section .footer-holder .first-footer .second-half .contact-details {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-section .footer-holder .first-footer .second-half .contact-details span h6 {
+	text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -97,7 +97,16 @@
                 display: flex;
                 width: 42%;
 
-                
+                .contact-details {
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        h6 {
+                            text-decoration: underline;
+                        }
+                    }
+                }
             }
         }
     }
