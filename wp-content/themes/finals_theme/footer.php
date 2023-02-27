@@ -27,8 +27,8 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 	<footer class="footer-section" id="footer-section">
-		<div class="footer-holder">
-			<div class="site-wrapper">
+		<div class="site-wrapper">
+			<div class="footer-holder" id="footer-holder">
 				<div class="first-footer" id="first-footer">
 					<div class="first-half" id="first-half">
 						<h2>Keep in the loop. We won't spam you</h2>
@@ -36,22 +36,23 @@
 							<p>Sign up to our mailing list to find out  more information and keep up to date about our activities</p>
 							<form class="contact-form" action="" method="post">
 								<textarea class="message-input" name="" id="message-input" cols="20" placeholder="email" rows="2"></textarea>
-								<button class="subscribe-button">Subscribe</button>
+								<button>Subscribe</button>
 							</form>
 						</span>
 					</div>
 					<div class="second-half" id="second-half">
-						<div>
+						<div class="contact-details" id="contact-details">
+							<h2>Contact Us</h2>
 							<span>
 								<h6>e-mail</h6>
-								<p></p>
+								<p><?php echo get_theme_mod('footer_contact_email'); ?></p>
 							</span>
 							<span>
 								<h6>address</h6>
-								<p></p>
+								<p><?php echo get_theme_mod('footer_address'); ?></p>
 							</span>
 						</div>
-						<div>
+						<div class="socials" id="socials">
 							<h2>Find Out More</h2>
 							<span>
 								<a href="www.facebook.com"><img src="<?php echo get_template_directory_uri(); ?> /assets/icons/facebook.png"></a>
@@ -61,11 +62,10 @@
 					</div>
 				</div>
 				<div class="second-footer" id="second-footer">
-
+					
 				</div>
-				
 			</div>
-		</div>	
+		</div>
 	</footer>
 </div><!-- #page -->
 

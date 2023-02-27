@@ -47,3 +47,58 @@
 }
 
 //This is the footer section style
+.footer-section {
+    background-color: $primary-color;
+    width: 100%;
+    height: 100%;
+
+    .footer-holder {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+
+        .first-footer {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            .first-half {
+                display: flex;
+                flex-direction: column;
+                width: 42%;
+
+                h2 {
+                    color: $secondary-color;
+                }
+
+                span {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    p {
+                        color: $secondary-color;
+                    }
+
+                    button {
+                        background-color: $tertiary-color;
+                        color: $secondary-color;
+                        width: 157px;
+                        height: 48px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: $secondary-size;
+                        line-height: 12px;
+                    }
+                }
+            }
+
+            .second-half {
+                display: flex;
+                width: 42%;
+
+                
+            }
+        }
+    }
+}

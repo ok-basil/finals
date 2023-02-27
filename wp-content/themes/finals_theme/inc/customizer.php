@@ -47,7 +47,55 @@ function finals_theme_customize_register( $wp_customize ) {
 	 * Add our footer section
 	 */
 	$wp_customize->add_section( 'footer_section',
-		array()
+		array(
+			'title' 		=>	__( 'Footer Section'),
+			'description'	=>	esc_html__( 'This is where the footer section resides' ),
+			'panel'			=> 'footer_navigation_panel',
+		)
+	);
+
+	/**
+	 * Add our footer contact email setting
+	 */
+	$wp_customize->add_setting( 'footer_contact_email');
+
+	/**
+	 * Adding our controls
+	 */
+	$wp_customize->add_control ( 'footer_contact_email',
+		array(
+			'label' 			=>__('Footer Contact Email'),
+			'description'		=> esc_html__( 'Enter the footer contact email address here' ),
+			'section'			=> 'footer_section',
+			'type'				=> 'textarea',
+			'input_attrs' 		=> array(
+				'class'			=> 'address_field',
+				'style'			=> 'border: 1px solid purple',
+				'placeholder'	=>__( 'Input email address'),
+			)
+		)
+	);
+
+	/**
+	 * Adding our footer address setting
+	 */
+	$wp_customize->add_setting( 'footer_address' );
+
+	/**
+	 * Adding our footer address controls
+	 */
+	$wp_customize->add_control( 'footer_address',
+		array(
+			'label'				=>__( 'Footer Address' ),
+			'description'		=> esc_html__( 'Enter the footer address here' ),
+			'section'			=> 'footer_section',
+			'type'				=> 'textarea',
+			'input_attrs'		=> array(
+				'class'			=> 'address_field',
+				'style'			=> 'border: 1px solid purple',
+				'placeholder'	=>__( 'Input address' ),
+			)
+		)
 	);
 }
 add_action( 'customize_register', 'finals_theme_customize_register' );
