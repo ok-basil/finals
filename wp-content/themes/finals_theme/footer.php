@@ -30,11 +30,34 @@
 		<div class="footer-holder">
 			<div class="site-wrapper">
 				<div class="first-footer" id="first-footer">
-					<div>
-
+					<div class="first-half" id="first-half">
+						<h2>Keep in the loop. We won't spam you</h2>
+						<span>
+							<p>Sign up to our mailing list to find out  more information and keep up to date about our activities</p>
+							<form class="contact-form" action="" method="post">
+								<textarea class="message-input" name="" id="message-input" cols="20" placeholder="email" rows="2"></textarea>
+								<button class="subscribe-button">Subscribe</button>
+							</form>
+						</span>
 					</div>
-					<div>
-						
+					<div class="second-half" id="second-half">
+						<div>
+							<span>
+								<h6>e-mail</h6>
+								<p></p>
+							</span>
+							<span>
+								<h6>address</h6>
+								<p></p>
+							</span>
+						</div>
+						<div>
+							<h2>Find Out More</h2>
+							<span>
+								<a href="www.facebook.com"><img src="<?php echo get_template_directory_uri(); ?> /assets/icons/facebook.png"></a>
+								<a href="www.instagram.com"><img src="<?php echo get_template_directory_uri(); ?> /assets/icons/instagram.png"></a>
+							</span>
+						</div>
 					</div>
 				</div>
 				<div class="second-footer" id="second-footer">

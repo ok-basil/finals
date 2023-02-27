@@ -31,6 +31,24 @@ function finals_theme_customize_register( $wp_customize ) {
 			)
 		);
 	}
+
+	/**
+	 * Add our Footer Panel
+	 */
+	$wp_customize->add_panel( 'footer_navigation_panel',
+		array(
+			'title'			=>	__( 'Footer Navigation' ),
+			'description'	=>	esc_html__('Adjust your Footer Navigation section.'),
+			'priority'		=>	160,
+		)
+	);
+
+	/**
+	 * Add our footer section
+	 */
+	$wp_customize->add_section( 'footer_section',
+		array()
+	)
 }
 add_action( 'customize_register', 'finals_theme_customize_register' );
 
