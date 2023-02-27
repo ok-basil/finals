@@ -48,7 +48,7 @@ function finals_theme_customize_register( $wp_customize ) {
 	 */
 	$wp_customize->add_section( 'footer_section',
 		array()
-	)
+	);
 }
 add_action( 'customize_register', 'finals_theme_customize_register' );
 
