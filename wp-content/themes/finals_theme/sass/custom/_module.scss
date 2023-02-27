@@ -1,0 +1,47 @@
+//This is the header section style
+.nav-menu {
+    width: 100%;
+
+    .menu-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 50%;
+    
+        @include respond (md) {
+            .menu-toggle {
+                display: none;
+            }
+        }
+    
+        .navbar-list {
+            display: flex;
+            width: 100%;
+    
+            .menu-list {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+    
+                li {
+                    display: flex;
+    
+                    font-family: Oxygen;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: ($secondary-size + 2px);
+                    
+                    a {
+                        color: #333333;
+                        text-decoration: none;
+                    }
+                        
+                    
+                }
+            }
+        }
+    }
+}

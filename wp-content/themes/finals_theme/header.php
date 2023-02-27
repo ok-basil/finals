@@ -34,21 +34,22 @@
 							the_custom_logo();
 						?>
 					</div>
+					<nav id="site-navigation" class="main-navigation navbar">
+						<?php
+							wp_nav_menu(
+								array(
+									'theme_location' 	=> 	'primary-menu',
+									'container'			=>	'div',
+									'container_class'	=>	'navbar-list',
+									'container_id'		=>	'navbar-list',
+									'menu_id'        	=> 	'primary-menu',
+									'items_wrap'		=>	'<ul class="menu-list">%3$s</ul>'
+								)
+							);
+						?>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'finals_theme' ); ?></button>			
+					</nav><!-- #site-navigation -->
 				</div>
 			</div>
 		</div>
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'finals_theme' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' 	=> 	'primary-menu',
-					'container'			=>	'div',
-					'container_class'	=>	'',
-					'menu_id'        	=> 	'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

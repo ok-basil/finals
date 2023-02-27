@@ -1,20 +1,45 @@
-/* Typography
---------------------------------------------- */
-@import "typography/typography";
+//Font sizings
+$primary-size: 12px;
+$secondary-size: 16px;
+$tertiary-size: 24px;
+$large-size: 48px;
 
-/* Elements
---------------------------------------------- */
-@import "elements/body";
-@import "elements/hr";
-@import "elements/lists";
-@import "elements/media";
-@import "elements/tables";
+//Colors
+$primary-color: #000000;
+$secondary-color: #FFFFFF;
+$tertiary-color: #FF2546;
 
-/* Links
---------------------------------------------- */
-@import "elements/links";
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Oxygen;
+    background-color: #E5E5E5;
+}
 
-/* Forms
---------------------------------------------- */
-@import "elements/buttons";
-@import "elements/fields";
+h1 {
+    font-size: $large-size;
+}
+
+h2 {
+    font-size: $tertiary-size;
+}
+
+p {
+    font-size: $secondary-size;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint ==sm {
+        @media only screen and (min-width: 40em) {
+            @content;
+        }
+        //640px
+    }
+}
