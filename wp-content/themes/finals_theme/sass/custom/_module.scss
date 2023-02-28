@@ -9,7 +9,7 @@
     }
 
     .navbar {
-        width: 50%;
+        width: 40%;
     
         @include respond (md) {
             .menu-toggle {
@@ -32,7 +32,7 @@
                     font-family: Oxygen;
                     font-style: normal;
                     font-weight: 700;
-                    font-size: ($secondary-size + 2px);
+                    font-size: calc($secondary-size + 2px);
                     
                     a {
                         color: #333333;
@@ -57,6 +57,7 @@
         flex-direction: column;
         width: 100%;
         justify-content: space-between;
+        padding-top: 40px;
 
         .first-footer {
             display: flex;
@@ -80,15 +81,41 @@
                         color: $secondary-color;
                     }
 
-                    button {
-                        background-color: $tertiary-color;
-                        color: $secondary-color;
-                        width: 157px;
-                        height: 48px;
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: $secondary-size;
-                        line-height: 12px;
+                    .contact-form {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 2px;
+                        margin-top: 20px;
+                        
+                        .message-input {
+                            width: 78%;
+                            height: auto;
+                            border-color: $secondary-color;
+                            border-width: 1px;
+                            background-color: $primary-color;
+                            margin-right: 8px;
+                        }
+
+                        
+    
+                        button {
+                            background-color: $tertiary-color;
+                            color: $secondary-color;
+                            width: 35%;
+                            align-items: center;
+                            height: 37px;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: $secondary-size;
+                            line-height: 12px;
+                            
+                            p {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                        }
                     }
                 }
             }
@@ -100,11 +127,84 @@
                 .contact-details {
                     display: flex;
                     flex-direction: column;
+                    
+                    h2 {
+                        color: $secondary-color;
+                        line-height: 28px;
+                        display: flex;
+                        align-items: center;
+                    }
 
                     span {
-                        h6 {
+                        h5 {
                             text-decoration: underline;
+                            color: $secondary-color;
                         }
+
+                        .email-address {
+                            color: $tertiary-color;
+                            margin-top: -17px;
+                        }
+                    }
+
+                    span {
+                        h5 {
+                            text-decoration: underline;
+                            color: $secondary-color;
+                        }
+
+                        p {
+                            color: $secondary-color;
+                            margin-top: -17px;
+                        }
+                    }
+                }
+
+                .socials {
+                    h2 {
+                        color: $secondary-color;
+                        line-height: 28px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    span {
+                        display: flex;
+                        gap: 22px;
+
+                        img {
+                            max-width: 24px;
+                            height: auto;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+
+        .second-footer {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            padding-top: 100px;
+
+            .copyright-half {
+                display: flex;
+                justify-content: flex-start;
+
+                h6 {
+                    color: #828282;
+                }
+            }
+
+            .privacy-half {
+                span {
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 4px;
+                    h6 {
+                        text-decoration: underline;
+                        color: #828282;
                     }
                 }
             }

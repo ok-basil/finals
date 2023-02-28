@@ -35,8 +35,8 @@
 						<span>
 							<p>Sign up to our mailing list to find out  more information and keep up to date about our activities</p>
 							<form class="contact-form" action="" method="post">
-								<textarea class="message-input" name="" id="message-input" cols="20" placeholder="email" rows="2"></textarea>
-								<button>Subscribe</button>
+								<textarea class="message-input" name="" id="message-input" placeholder="email"></textarea>
+								<button><p>Subscribe</p></button>
 							</form>
 						</span>
 					</div>
@@ -44,11 +44,11 @@
 						<div class="contact-details" id="contact-details">
 							<h2>Contact Us</h2>
 							<span>
-								<h6>e-mail</h6>
-								<p><?php echo get_theme_mod('footer_contact_email'); ?></p>
+								<h5>e-mail</h5>
+								<p class="email-address" id="email-address"><?php echo get_theme_mod('footer_contact_email'); ?></p>
 							</span>
 							<span>
-								<h6>address</h6>
+								<h5>address</h5>
 								<p><?php echo get_theme_mod('footer_address'); ?></p>
 							</span>
 						</div>
@@ -62,7 +62,15 @@
 					</div>
 				</div>
 				<div class="second-footer" id="second-footer">
-					
+					<div class="copyright-half" id="copyright-half">
+						<h6>© 2019 Studio 14 ltd - All rights reserved.</h6>
+					</div>
+					<div class="privacy-half" id="privacy-half">
+						<span>
+							<h6>Privacy Policy</h6>
+							<h6>Terms and Conditions</h6>
+						</span>
+					</div>
 				</div>
 			</div>
 		</div>

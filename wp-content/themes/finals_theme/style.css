@@ -48,8 +48,16 @@ h2 {
 	font-size: 24px;
 }
 
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: calc($primary-size - 1px);
+}
+
 p {
-	font-size: 16px;
+	font-size: 13px;
 }
 
 ul {
@@ -81,7 +89,7 @@ button {
 }
 
 .nav-menu .navbar {
-	width: 50%;
+	width: 40%;
 }
 
 .nav-menu .navbar .navbar-list {
@@ -100,7 +108,7 @@ button {
 	font-family: Oxygen;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: calc($secondary-size + 2px);
 }
 
 .nav-menu .navbar .navbar-list .menu-list li a {
@@ -119,6 +127,7 @@ button {
 	flex-direction: column;
 	width: 100%;
 	justify-content: space-between;
+	padding-top: 40px;
 }
 
 .footer-section .footer-holder .first-footer {
@@ -146,15 +155,39 @@ button {
 	color: #FFFFFF;
 }
 
-.footer-section .footer-holder .first-footer .first-half span button {
+.footer-section .footer-holder .first-footer .first-half span .contact-form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2px;
+	margin-top: 20px;
+}
+
+.footer-section .footer-holder .first-footer .first-half span .contact-form .message-input {
+	width: 78%;
+	height: auto;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	background-color: #000000;
+	margin-right: 8px;
+}
+
+.footer-section .footer-holder .first-footer .first-half span .contact-form button {
 	background-color: #FF2546;
 	color: #FFFFFF;
-	width: 157px;
-	height: 48px;
+	width: 35%;
+	align-items: center;
+	height: 37px;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 13px;
 	line-height: 12px;
+}
+
+.footer-section .footer-holder .first-footer .first-half span .contact-form button p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer-section .footer-holder .first-footer .second-half {
@@ -167,8 +200,76 @@ button {
 	flex-direction: column;
 }
 
-.footer-section .footer-holder .first-footer .second-half .contact-details span h6 {
+.footer-section .footer-holder .first-footer .second-half .contact-details h2 {
+	color: #FFFFFF;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+}
+
+.footer-section .footer-holder .first-footer .second-half .contact-details span h5 {
 	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+.footer-section .footer-holder .first-footer .second-half .contact-details span .email-address {
+	color: #FF2546;
+	margin-top: -17px;
+}
+
+.footer-section .footer-holder .first-footer .second-half .contact-details span h5 {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+.footer-section .footer-holder .first-footer .second-half .contact-details span p {
+	color: #FFFFFF;
+	margin-top: -17px;
+}
+
+.footer-section .footer-holder .first-footer .second-half .socials h2 {
+	color: #FFFFFF;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+}
+
+.footer-section .footer-holder .first-footer .second-half .socials span {
+	display: flex;
+	gap: 22px;
+}
+
+.footer-section .footer-holder .first-footer .second-half .socials span img {
+	max-width: 24px;
+	height: auto;
+	object-fit: contain;
+}
+
+.footer-section .footer-holder .second-footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+
+.footer-section .footer-holder .second-footer .copyright-half {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-section .footer-holder .second-footer .copyright-half h6 {
+	color: #828282;
+}
+
+.footer-section .footer-holder .second-footer .privacy-half span {
+	display: flex;
+	justify-content: flex-end;
+	gap: 4px;
+}
+
+.footer-section .footer-holder .second-footer .privacy-half span h6 {
+	text-decoration: underline;
+	color: #828282;
 }
 
 /*# sourceMappingURL=style.css.map */
