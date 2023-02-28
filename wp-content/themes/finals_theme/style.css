@@ -225,6 +225,11 @@ button {
 .footer-section .footer-holder .first-footer .second-half .contact-details span p {
 	color: #FFFFFF;
 	margin-top: -17px;
+	width: 60%;
+}
+
+.footer-section .footer-holder .first-footer .second-half .socials {
+	width: 50%;
 }
 
 .footer-section .footer-holder .first-footer .second-half .socials h2 {

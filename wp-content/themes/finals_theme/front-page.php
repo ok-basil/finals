@@ -1,5 +1,7 @@
 <?php get_header() ?>
 
-Free my niggas
+<main>
+    
+</main>
 
 <?php get_footer() ?>
