@@ -9,9 +9,9 @@
     }
 
     .navbar {
-        width: 40%;
+        width: 30%;
     
-        @include respond (md) {
+        @include respond (sm) {
             .menu-toggle {
                 display: none;
             }
@@ -53,7 +53,6 @@
     width: 100%;
 
     .container {
-        display: flex;
         h1 {
             font-weight: 400;
             line-height: 127.6%; /* or 61px */
@@ -86,8 +85,164 @@
 }
 
 .second-section {
+    width: 100%;
 
+    .container {
+        justify-content: space-between;
+
+        .century-company {
+            width: 64.8%;
+            background-color: $secondary-color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .first-century {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .second-century {
+                padding: 30px;
+
+                h2 {
+                    width: 50%;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 29px;
+                    letter-spacing: -0.02em;
+                    color: $primary-color;
+                }
+
+                p {
+                    width: 100%;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    color: $primary-color;
+                }
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    
+                    p {
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 14px;
+                        display: flex;
+                        align-items: center;
+                        color: #828282;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        width: 14%;
+
+                        p{
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 14px;
+                            display: flex;
+                            align-items: center;
+                            color: $tertiary-color;
+                        }
+
+                        img {
+                            width: 8.94px;
+                            height: 14px;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+
+        .stock-company {
+            width: 34.5%;
+            background-color: $secondary-color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .first-stock {
+                img {
+                    width: 100%;
+                }
+            }
+            .second-stock {
+                padding: 30px;
+
+                h2 {
+                    width: 100%;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 29px;
+                    letter-spacing: -0.02em;
+                    color: $primary-color;
+                }
+
+                p {
+                    width: 100%;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    color: $primary-color;
+                }
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    
+                    p {
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 14px;
+                        display: flex;
+                        align-items: center;
+                        color: #828282;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        width: 40%;
+
+                        p{
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 14px;
+                            display: flex;
+                            align-items: center;
+                            color: $tertiary-color;
+                        }
+
+                        img {
+                            width: 8.94px;
+                            height: 14px;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+.third-section {
+    .container {
+        justify-content: space-between;
+
+        .
+    }
+}
+
+
+
+
+
+
 //This is the footer section style
 .footer-section {
     background-color: $primary-color;
@@ -138,7 +293,7 @@
                             background-color: $primary-color;
                             margin-right: 8px;
                         }
-                        
+
                         button {
                             background-color: $tertiary-color;
                             color: $secondary-color;

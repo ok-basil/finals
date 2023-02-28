@@ -78,6 +78,11 @@ button {
 	margin: auto;
 }
 
+.container {
+	display: flex;
+	width: 100%;
+}
+
 .nav-menu {
 	width: 100%;
 }
@@ -89,7 +94,13 @@ button {
 }
 
 .nav-menu .navbar {
-	width: 40%;
+	width: 30%;
+}
+
+@media only screen and (min-width: 40em) {
+	.nav-menu .navbar .menu-toggle {
+		display: none;
+	}
 }
 
 .nav-menu .navbar .navbar-list {
@@ -118,10 +129,6 @@ button {
 
 .first-section {
 	width: 100%;
-}
-
-.first-section .container {
-	display: flex;
 }
 
 .first-section .container h1 {
@@ -153,6 +160,154 @@ button {
 	padding: 0px 20px;
 	gap: 10px;
 	margin-left: 8px;
+}
+
+.second-section {
+	width: 100%;
+}
+
+.second-section .container {
+	justify-content: space-between;
+}
+
+.second-section .container .century-company {
+	width: 64.8%;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.second-section .container .century-company .first-century img {
+	width: 100%;
+}
+
+.second-section .container .century-company .second-century {
+	padding: 30px;
+}
+
+.second-section .container .century-company .second-century h2 {
+	width: 50%;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 29px;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+
+.second-section .container .century-company .second-century p {
+	width: 100%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	color: #000000;
+}
+
+.second-section .container .century-company .second-century span {
+	display: flex;
+	align-items: center;
+}
+
+.second-section .container .century-company .second-century span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #828282;
+}
+
+.second-section .container .century-company .second-century span span {
+	display: flex;
+	align-items: center;
+	width: 14%;
+}
+
+.second-section .container .century-company .second-century span span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #FF2546;
+}
+
+.second-section .container .century-company .second-century span span img {
+	width: 8.94px;
+	height: 14px;
+	object-fit: contain;
+}
+
+.second-section .container .stock-company {
+	width: 34.5%;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.second-section .container .stock-company .first-stock img {
+	width: 100%;
+}
+
+.second-section .container .stock-company .second-stock {
+	padding: 30px;
+}
+
+.second-section .container .stock-company .second-stock h2 {
+	width: 100%;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+
+.second-section .container .stock-company .second-stock p {
+	width: 100%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	color: #000000;
+}
+
+.second-section .container .stock-company .second-stock span {
+	display: flex;
+	align-items: center;
+}
+
+.second-section .container .stock-company .second-stock span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #828282;
+}
+
+.second-section .container .stock-company .second-stock span span {
+	display: flex;
+	align-items: center;
+	width: 40%;
+}
+
+.second-section .container .stock-company .second-stock span span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #FF2546;
+}
+
+.second-section .container .stock-company .second-stock span span img {
+	width: 8.94px;
+	height: 14px;
+	object-fit: contain;
+}
+
+.third-section .container {
+	justify-content: space-between;
 }
 
 .footer-section {
