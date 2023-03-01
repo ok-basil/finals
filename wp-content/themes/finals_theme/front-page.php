@@ -58,11 +58,11 @@
     <section class="third-section">
         <div class="site-wrapper">
             <div class="container">
-                <div>
-                    <div class="fibre-network" id="fibre-network">
+                <div class="fibre-keke-workstation" id="fibre-keke-workstation">
+                    <div class="first-part" id="first-part">
                        <img src="<?php echo get_template_directory_uri() ?> /assets/img/fibre.png" alt="fibre">
                     </div>
-                    <div class="tricycle" id="tricycle">
+                    <div class="second-part" id="second-part">
                         <h2>Fibre Optic Network in West Africa</h2>
                         <p>Very experienced software developers take it upon themselves to oversee programme.</p>
                         <span>
@@ -74,11 +74,11 @@
                         </span>
                     </div>
                 </div>
-                <div>
-                    <div class="workstation" id="workstation">
+                <div class="fibre-keke-workstation" id="fibre-keke-workstation">
+                    <div class="first-part" id="first-part">
                        <img src="<?php echo get_template_directory_uri() ?> /assets/img/keke.png" alt="keke">
                     </div>
-                    <div class="second-stock" id="second-stock">
+                    <div class="second-part" id="second-part">
                         <h2>Coindealer lauches on NYSE</h2>
                         <p>Very experienced software developers take it upon themselves to oversee programme.</p>
                         <span>
@@ -90,11 +90,11 @@
                         </span>
                     </div>
                 </div>
-                <div>
-                    <div class="first-stock" id="first-stock">
-                       <img src="<?php echo get_template_directory_uri() ?> /assets/img/workstation.png" alt="workstation">
+                <div class="fibre-keke-workstation" id="fibre-keke-workstation">
+                    <div class="first-part" id="first-part">
+                       <img src="<?php echo get_template_directory_uri() ?> /assets/img/workstation.png" alt="stock-market">
                     </div>
-                    <div class="second-stock" id="second-stock">
+                    <div class="second-part" id="second-part">
                         <h2>Coindealer lauches on NYSE</h2>
                         <p>Very experienced software developers take it upon themselves to oversee programme.</p>
                         <span>
