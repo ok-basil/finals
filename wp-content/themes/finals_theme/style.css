@@ -220,7 +220,7 @@ button {
 .second-section .container .century-company .second-century span span {
 	display: flex;
 	align-items: center;
-	width: 14%;
+	width: 18%;
 }
 
 .second-section .container .century-company .second-century span span p {
@@ -542,7 +542,7 @@ button {
 .footer-section .footer-holder .second-footer .privacy-half span {
 	display: flex;
 	justify-content: flex-end;
-	gap: 4px;
+	gap: 10px;
 }
 
 .footer-section .footer-holder .second-footer .privacy-half span h6 {

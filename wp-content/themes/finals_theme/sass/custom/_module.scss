@@ -139,7 +139,7 @@
                     span {
                         display: flex;
                         align-items: center;
-                        width: 14%;
+                        width: 18%;
 
                         p{
                             font-style: normal;
@@ -254,9 +254,9 @@
                 padding: 20px;
                 
                 .margin-remover {
-                    // margin-top: 0px;
                     margin-bottom: -5px;
                 }
+
                 h2 {
                     width: 100%;
                     font-style: normal;
@@ -470,7 +470,8 @@
                 span {
                     display: flex;
                     justify-content: flex-end;
-                    gap: 4px;
+                    gap: 10px;
+                    
                     h6 {
                         text-decoration: underline;
                         color: #828282;
