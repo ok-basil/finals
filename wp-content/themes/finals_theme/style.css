@@ -413,15 +413,15 @@ button {
 	width: 100%;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 {
 	padding: 15px;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part .margin-remover {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 .margin-remover {
 	margin-bottom: -5px;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part h2 {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 h2 {
 	width: 100%;
 	font-style: normal;
 	font-weight: 700;
@@ -430,7 +430,7 @@ button {
 	color: #000000;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part p {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 p {
 	width: 100%;
 	font-style: normal;
 	font-weight: 400;
@@ -438,12 +438,12 @@ button {
 	color: #000000;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part span {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span {
 	display: flex;
 	align-items: center;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part span p {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 14px;
@@ -452,13 +452,13 @@ button {
 	color: #828282;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part span span {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span span {
 	display: flex;
 	align-items: center;
-	width: 20%;
+	width: 37%;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part span span p {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span span p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 14px;
@@ -467,7 +467,7 @@ button {
 	color: #FF2546;
 }
 
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part span span img {
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span span img {
 	width: 8.94px;
 	height: 14px;
 	object-fit: contain;
