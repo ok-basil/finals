@@ -107,7 +107,7 @@
                 padding: 30px;
 
                 h2 {
-                    width: 50%;
+                    width: 56%;
                     font-weight: 700;
                     font-style: normal;
                     line-height: 29px;
@@ -126,6 +126,7 @@
                 span {
                     display: flex;
                     align-items: center;
+                    padding-top: 15px;
                     
                     p {
                         font-style: normal;
@@ -234,77 +235,165 @@
 .third-section {
     width: 100%;
     margin-top: 30px;
+
     .container {
         justify-content: space-between;
-
-        .fibre-keke-workstation {
-            width: 33%;
-            background-color: $secondary-color;
+        
+        .first-container {
+            justify-content: space-between;
+            width: 64.8%;
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            gap: 10px;
 
-            .first-part {
-                img {
-                    width: 100%;
-                }
-            }
+            .fibre-keke-workstation {
+                width: 50%;
+                background-color: $secondary-color;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
-            .second-part {
-                padding: 20px;
-                
-                .margin-remover {
-                    margin-bottom: -5px;
-                }
-
-                h2 {
-                    width: 100%;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 29px;
-                    letter-spacing: -0.02em;
-                    color: $primary-color;
+                .first-part {
+                    img {
+                        width: 100%;
+                    }
                 }
 
-                p {
-                    width: 100%;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 25px;
-                    color: $primary-color;
-                }
-
-                span {
-                    display: flex;
-                    align-items: center;
+                .second-part {
+                    padding: 15px;
                     
-                    p {
+                    .margin-remover {
+                        margin-bottom: -5px;
+                    }
+
+                    h2 {
+                        width: 100%;
                         font-style: normal;
                         font-weight: 700;
-                        line-height: 14px;
-                        display: flex;
-                        align-items: center;
-                        color: #828282;
+                        line-height: 29px;
+                        letter-spacing: -0.02em;
+                        color: $primary-color;
+                    }
+
+                    p {
+                        width: 100%;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                        color: $primary-color;
                     }
 
                     span {
                         display: flex;
                         align-items: center;
-                        width: 40%;
-
-                        p{
+                        
+                        p {
                             font-style: normal;
                             font-weight: 700;
                             line-height: 14px;
                             display: flex;
                             align-items: center;
-                            color: $tertiary-color;
+                            color: #828282;
                         }
 
-                        img {
-                            width: 8.94px;
-                            height: 14px;
-                            object-fit: contain;
+                        span {
+                            display: flex;
+                            align-items: center;
+                            width: 40%;
+
+                            p{
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 14px;
+                                display: flex;
+                                align-items: center;
+                                color: $tertiary-color;
+                            }
+
+                            img {
+                                width: 8.94px;
+                                height: 14px;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .second-container {
+            justify-content: space-between;
+            width: 34.5%;
+            display: flex;
+
+            .fibre-keke-workstation-1 {
+                width: 100%;
+                background-color: $secondary-color;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .first-part {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .second-part {
+                    padding: 15px;
+                    
+                    .margin-remover {
+                        margin-bottom: -5px;
+                    }
+
+                    h2 {
+                        width: 100%;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 29px;
+                        letter-spacing: -0.02em;
+                        color: $primary-color;
+                    }
+
+                    p {
+                        width: 100%;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                        color: $primary-color;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        
+                        p {
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 14px;
+                            display: flex;
+                            align-items: center;
+                            color: #828282;
+                        }
+
+                        span {
+                            display: flex;
+                            align-items: center;
+                            width: 20%;
+
+                            p{
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 14px;
+                                display: flex;
+                                align-items: center;
+                                color: $tertiary-color;
+                            }
+
+                            img {
+                                width: 8.94px;
+                                height: 14px;
+                                object-fit: contain;
+                            }
                         }
                     }
                 }
@@ -471,7 +560,7 @@
                     display: flex;
                     justify-content: flex-end;
                     gap: 10px;
-                    
+
                     h6 {
                         text-decoration: underline;
                         color: #828282;

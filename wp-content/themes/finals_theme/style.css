@@ -187,7 +187,7 @@ button {
 }
 
 .second-section .container .century-company .second-century h2 {
-	width: 50%;
+	width: 56%;
 	font-weight: 700;
 	font-style: normal;
 	line-height: 29px;
@@ -206,6 +206,7 @@ button {
 .second-section .container .century-company .second-century span {
 	display: flex;
 	align-items: center;
+	padding-top: 15px;
 }
 
 .second-section .container .century-company .second-century span p {
@@ -315,27 +316,34 @@ button {
 	justify-content: space-between;
 }
 
-.third-section .container .fibre-keke-workstation {
-	width: 33%;
+.third-section .container .first-container {
+	justify-content: space-between;
+	width: 64.8%;
+	display: flex;
+	gap: 10px;
+}
+
+.third-section .container .first-container .fibre-keke-workstation {
+	width: 50%;
 	background-color: #FFFFFF;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.third-section .container .fibre-keke-workstation .first-part img {
+.third-section .container .first-container .fibre-keke-workstation .first-part img {
 	width: 100%;
 }
 
-.third-section .container .fibre-keke-workstation .second-part {
-	padding: 20px;
+.third-section .container .first-container .fibre-keke-workstation .second-part {
+	padding: 15px;
 }
 
-.third-section .container .fibre-keke-workstation .second-part .margin-remover {
+.third-section .container .first-container .fibre-keke-workstation .second-part .margin-remover {
 	margin-bottom: -5px;
 }
 
-.third-section .container .fibre-keke-workstation .second-part h2 {
+.third-section .container .first-container .fibre-keke-workstation .second-part h2 {
 	width: 100%;
 	font-style: normal;
 	font-weight: 700;
@@ -344,7 +352,7 @@ button {
 	color: #000000;
 }
 
-.third-section .container .fibre-keke-workstation .second-part p {
+.third-section .container .first-container .fibre-keke-workstation .second-part p {
 	width: 100%;
 	font-style: normal;
 	font-weight: 400;
@@ -352,12 +360,12 @@ button {
 	color: #000000;
 }
 
-.third-section .container .fibre-keke-workstation .second-part span {
+.third-section .container .first-container .fibre-keke-workstation .second-part span {
 	display: flex;
 	align-items: center;
 }
 
-.third-section .container .fibre-keke-workstation .second-part span p {
+.third-section .container .first-container .fibre-keke-workstation .second-part span p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 14px;
@@ -366,13 +374,13 @@ button {
 	color: #828282;
 }
 
-.third-section .container .fibre-keke-workstation .second-part span span {
+.third-section .container .first-container .fibre-keke-workstation .second-part span span {
 	display: flex;
 	align-items: center;
 	width: 40%;
 }
 
-.third-section .container .fibre-keke-workstation .second-part span span p {
+.third-section .container .first-container .fibre-keke-workstation .second-part span span p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 14px;
@@ -381,7 +389,85 @@ button {
 	color: #FF2546;
 }
 
-.third-section .container .fibre-keke-workstation .second-part span span img {
+.third-section .container .first-container .fibre-keke-workstation .second-part span span img {
+	width: 8.94px;
+	height: 14px;
+	object-fit: contain;
+}
+
+.third-section .container .second-container {
+	justify-content: space-between;
+	width: 34.5%;
+	display: flex;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 {
+	width: 100%;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .first-part img {
+	width: 100%;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part {
+	padding: 15px;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part .margin-remover {
+	margin-bottom: -5px;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part h2 {
+	width: 100%;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part p {
+	width: 100%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	color: #000000;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part span {
+	display: flex;
+	align-items: center;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #828282;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part span span {
+	display: flex;
+	align-items: center;
+	width: 20%;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part span span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #FF2546;
+}
+
+.third-section .container .second-container .fibre-keke-workstation-1 .second-part span span img {
 	width: 8.94px;
 	height: 14px;
 	object-fit: contain;
