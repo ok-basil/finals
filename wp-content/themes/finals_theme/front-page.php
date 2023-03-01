@@ -63,8 +63,8 @@
                        <img src="<?php echo get_template_directory_uri() ?> /assets/img/fibre.png" alt="fibre">
                     </div>
                     <div class="second-part" id="second-part">
-                        <h2>Fibre Optic Network in West Africa</h2>
-                        <p>Very experienced software developers take it upon themselves to oversee programme.</p>
+                        <h2 class="margin-remover">Fibre Optic Network in West Africa</h2>
+                        <p class="margin-remover">Very experienced software developers take it upon themselves to oversee programme.</p>
                         <span>
                             <p>Business</p>
                             <span>

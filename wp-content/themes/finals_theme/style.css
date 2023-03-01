@@ -328,7 +328,11 @@ button {
 }
 
 .third-section .container .fibre-keke-workstation .second-part {
-	padding: 30px;
+	padding: 20px;
+}
+
+.third-section .container .fibre-keke-workstation .second-part .margin-remover {
+	margin-bottom: -5px;
 }
 
 .third-section .container .fibre-keke-workstation .second-part h2 {

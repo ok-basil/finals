@@ -251,8 +251,12 @@
             }
 
             .second-part {
-                padding: 30px;
-
+                padding: 20px;
+                
+                .margin-remover {
+                    // margin-top: 0px;
+                    margin-bottom: -5px;
+                }
                 h2 {
                     width: 100%;
                     font-style: normal;
