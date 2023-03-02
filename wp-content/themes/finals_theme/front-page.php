@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="blog-posts-wrapper">
                     <?php $args = [
-                        'post_type'     => 'post',
+                        'post_type' => 'post',
                         'post_per_page' => 5,
                     ];
 
