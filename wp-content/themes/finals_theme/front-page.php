@@ -64,8 +64,8 @@
                                     <span>
                                         <p>Business</p>
                                         <span>
-                                            <p>Read More</p>
-                                            <img src="<?php echo get_template_directory_uri() ?> /assets/icons/show-more.png" alt="show-more">
+                                            <a href="<?php the_permalink(); ?>"><p>Read More</p>
+                                            <img src="<?php echo get_template_directory_uri() ?> /assets/icons/show-more.png" alt="show-more"></a>
                                         </span>
                                     </span>
                                 </div>
