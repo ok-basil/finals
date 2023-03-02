@@ -168,25 +168,103 @@ button {
 
 .second-section .container {
 	justify-content: space-between;
+	width: 100%;
 }
 
-.second-section .container .century-company {
-	width: 64.8%;
+.second-section .container .blog-posts-wrapper {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.second-section .container .blog-posts-wrapper .post-style {
+	width: 32%;
 	background-color: #FFFFFF;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.second-section .container .century-company .first-century img {
+.second-section .container .blog-posts-wrapper .post-style .first img {
 	width: 100%;
 }
 
-.second-section .container .century-company .second-century {
+.second-section .container .blog-posts-wrapper .post-style .second {
+	padding: 16px;
+}
+
+.second-section .container .blog-posts-wrapper .post-style .second h2 {
+	width: 100%;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+
+.second-section .container .blog-posts-wrapper .post-style .second p {
+	width: 100%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	color: #000000;
+}
+
+.second-section .container .blog-posts-wrapper .post-style .second span {
+	display: flex;
+	align-items: center;
+}
+
+.second-section .container .blog-posts-wrapper .post-style .second span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #828282;
+}
+
+.second-section .container .blog-posts-wrapper .post-style .second span span {
+	display: flex;
+	align-items: center;
+	width: 40%;
+}
+
+.second-section .container .blog-posts-wrapper .post-style .second span span p {
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #FF2546;
+}
+
+.second-section .container .blog-posts-wrapper .post-style .second span span img {
+	width: 8.94px;
+	height: 14px;
+	object-fit: contain;
+}
+
+.second-section .container .blog-posts-wrapper .post-style:first-of-type {
+	width: 64.8%;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 12px;
+}
+
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .first img {
+	width: 100%;
+}
+
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second {
 	padding: 30px;
 }
 
-.second-section .container .century-company .second-century h2 {
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second h2 {
 	width: 56%;
 	font-weight: 700;
 	font-style: normal;
@@ -195,7 +273,7 @@ button {
 	color: #000000;
 }
 
-.second-section .container .century-company .second-century p {
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second p {
 	width: 100%;
 	font-style: normal;
 	font-weight: 400;
@@ -203,13 +281,13 @@ button {
 	color: #000000;
 }
 
-.second-section .container .century-company .second-century span {
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second span {
 	display: flex;
 	align-items: center;
 	padding-top: 15px;
 }
 
-.second-section .container .century-company .second-century span p {
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second span p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 14px;
@@ -218,13 +296,13 @@ button {
 	color: #828282;
 }
 
-.second-section .container .century-company .second-century span span {
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second span span {
 	display: flex;
 	align-items: center;
 	width: 18%;
 }
 
-.second-section .container .century-company .second-century span span p {
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second span span p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 14px;
@@ -233,242 +311,7 @@ button {
 	color: #FF2546;
 }
 
-.second-section .container .century-company .second-century span span img {
-	width: 8.94px;
-	height: 14px;
-	object-fit: contain;
-}
-
-.second-section .container .stock-company {
-	width: 34.5%;
-	background-color: #FFFFFF;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.second-section .container .stock-company .first-stock img {
-	width: 100%;
-}
-
-.second-section .container .stock-company .second-stock {
-	padding: 16px;
-}
-
-.second-section .container .stock-company .second-stock h2 {
-	width: 100%;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 29px;
-	letter-spacing: -0.02em;
-	color: #000000;
-}
-
-.second-section .container .stock-company .second-stock p {
-	width: 100%;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 25px;
-	color: #000000;
-}
-
-.second-section .container .stock-company .second-stock span {
-	display: flex;
-	align-items: center;
-}
-
-.second-section .container .stock-company .second-stock span p {
-	font-style: normal;
-	font-weight: 700;
-	line-height: 14px;
-	display: flex;
-	align-items: center;
-	color: #828282;
-}
-
-.second-section .container .stock-company .second-stock span span {
-	display: flex;
-	align-items: center;
-	width: 40%;
-}
-
-.second-section .container .stock-company .second-stock span span p {
-	font-style: normal;
-	font-weight: 700;
-	line-height: 14px;
-	display: flex;
-	align-items: center;
-	color: #FF2546;
-}
-
-.second-section .container .stock-company .second-stock span span img {
-	width: 8.94px;
-	height: 14px;
-	object-fit: contain;
-}
-
-.third-section {
-	width: 100%;
-	margin-top: 30px;
-}
-
-.third-section .container {
-	justify-content: space-between;
-}
-
-.third-section .container .first-container {
-	justify-content: space-between;
-	width: 64.8%;
-	display: flex;
-	gap: 10px;
-}
-
-.third-section .container .first-container .fibre-keke-workstation {
-	width: 50%;
-	background-color: #FFFFFF;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .first-part img {
-	width: 100%;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part {
-	padding: 15px;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part .margin-remover {
-	margin-bottom: -5px;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part h2 {
-	width: 100%;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 29px;
-	letter-spacing: -0.02em;
-	color: #000000;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part p {
-	width: 100%;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 25px;
-	color: #000000;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part span {
-	display: flex;
-	align-items: center;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part span p {
-	font-style: normal;
-	font-weight: 700;
-	line-height: 14px;
-	display: flex;
-	align-items: center;
-	color: #828282;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part span span {
-	display: flex;
-	align-items: center;
-	width: 40%;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part span span p {
-	font-style: normal;
-	font-weight: 700;
-	line-height: 14px;
-	display: flex;
-	align-items: center;
-	color: #FF2546;
-}
-
-.third-section .container .first-container .fibre-keke-workstation .second-part span span img {
-	width: 8.94px;
-	height: 14px;
-	object-fit: contain;
-}
-
-.third-section .container .second-container {
-	justify-content: space-between;
-	width: 34.5%;
-	display: flex;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 {
-	width: 100%;
-	background-color: #FFFFFF;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .first-part img {
-	width: 100%;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 {
-	padding: 15px;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 .margin-remover {
-	margin-bottom: -5px;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 h2 {
-	width: 100%;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 29px;
-	letter-spacing: -0.02em;
-	color: #000000;
-	margin-top: -12px;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 p {
-	width: 100%;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 25px;
-	color: #000000;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span {
-	display: flex;
-	align-items: center;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span p {
-	font-style: normal;
-	font-weight: 700;
-	line-height: 14px;
-	display: flex;
-	align-items: center;
-	color: #828282;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span span {
-	display: flex;
-	align-items: center;
-	width: 37%;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span span p {
-	font-style: normal;
-	font-weight: 700;
-	line-height: 14px;
-	display: flex;
-	align-items: center;
-	color: #FF2546;
-}
-
-.third-section .container .second-container .fibre-keke-workstation-1 .second-part-1 span span img {
+.second-section .container .blog-posts-wrapper .post-style:first-of-type .second span span img {
 	width: 8.94px;
 	height: 14px;
 	object-fit: contain;
