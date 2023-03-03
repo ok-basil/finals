@@ -21,12 +21,15 @@
             <div>
                 <span>
                     <span>
-                        
+                        <img src="<?php echo get_template_directory_uri(); ?> /assets/icons/return.png">
+                        <form><input type="button" value="Back" onclick="history.back()"></form>
                     </span>
-                    <p>Product development</p>
+                    <p><?php get_the_category();?></p>
                 </span>
             </div>
-            <div></div>
+            <div>
+                <p><?php echo $post_content; ?></p>
+            </div>
         </div>
     </div>
 </section>
