@@ -457,5 +457,53 @@
                 }
             }
         }
+
+        .content {
+            .mid-section {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-top: 30px;
+
+                .top-half {
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+
+                    span {
+                        display: flex;
+                        width: 100%;
+
+                        span {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+
+                            img {
+                                width: 8.04px;
+                                height: 12px;
+                                object-fit: contain;
+                            }
+
+                            form {
+                                input {
+                                    border: 0;
+                                    background-color: transparent;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+
+                        p {
+                            font-size: 18px;
+                            font-weight: 700;
+                            width: 21%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

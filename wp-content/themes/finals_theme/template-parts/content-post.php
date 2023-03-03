@@ -18,7 +18,7 @@
 <section class="content" id="content">
     <div class="site-wrapper">
         <div class="mid-section" id="mid-section">
-            <div>
+            <div class="top-half" id="top-half">
                 <span>
                     <span>
                         <img src="<?php echo get_template_directory_uri(); ?> /assets/icons/return.png">
@@ -27,7 +27,7 @@
                     <p><?php $item = get_the_category(); echo $item[0]->name; ?></p>
                 </span>
             </div>
-            <div>
+            <div class="lower-half" id="lower-half">
                 <p><?php echo the_content(); ?></p>
             </div>
         </div>
