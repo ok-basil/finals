@@ -34,15 +34,13 @@
     </div>
 </section>
 <section class="send-message" id="send-message">
-    <div class="holder" id="holder">
-        <div class="site-wrapper">
-            <div class="message" id="message">
-                <h4>send us a message</h4>
-                <p>Whatever stage you're at, we're happy to chat.</p>
-                <span>
-                    <button>GET IN TOUCH <img src="<?php echo get_template_directory_uri(); ?> /assets/icons/show-more.png"></button>
-                </span>
-            </div>
+    <div class="site-wrapper">
+        <div class="message" id="message">
+            <h4>send us a message</h4>
+            <p>Whatever stage you're at, we're happy to chat.</p>
+            <span>
+                <button> <p>GET IN TOUCH</p> <img src="<?php echo get_template_directory_uri(); ?> /assets/icons/show-more.png"></button>
+            </span>
         </div>
     </div>
 </section>
