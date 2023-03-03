@@ -24,11 +24,24 @@
                         <img src="<?php echo get_template_directory_uri(); ?> /assets/icons/return.png">
                         <form><input type="button" value="Back" onclick="history.back()"></form>
                     </span>
-                    <p><?php get_the_category();?></p>
+                    <p><?php $item = get_the_category(); echo $item[0]->name; ?></p>
                 </span>
             </div>
             <div>
-                <p><?php echo $post_content; ?></p>
+                <p><?php echo the_content(); ?></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="send-message" id="send-message">
+    <div class="holder" id="holder">
+        <div class="site-wrapper">
+            <div class="message" id="message">
+                <h4>send us a message</h4>
+                <p>Whatever stage you're at, we're happy to chat.</p>
+                <span>
+                    <button>GET IN TOUCH <img src="<?php echo get_template_directory_uri(); ?> /assets/icons/show-more.png"></button>
+                </span>
             </div>
         </div>
     </div>
