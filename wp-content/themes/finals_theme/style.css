@@ -492,15 +492,32 @@ button {
 }
 
 .single-post .site-header .navbar-list .menu-list a {
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 }
 
 .single-post .site-main .blog-post-header {
 	width: 100%;
-	height: 600px;
+	height: 400px;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.single-post .site-main .blog-post-header .the-title {
+	position: relative;
+	vertical-align: bottom;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-top: 10%;
+	margin-left: 10%;
+}
+
+.single-post .site-main .blog-post-header .the-title h1 {
+	color: #FFFFFF;
+	font-size: 72px;
+	font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
