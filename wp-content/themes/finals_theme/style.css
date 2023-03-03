@@ -595,6 +595,7 @@ button {
 	color: #FFFFFF;
 	font-size: 64px;
 	font-weight: 700;
+	margin: 0px;
 }
 
 .single-post .site-main .send-message .message p {
