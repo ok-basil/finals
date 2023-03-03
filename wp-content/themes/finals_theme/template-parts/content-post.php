@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section>
+<section class="content" id="content">
     <div class="site-wrapper">
         <div class="mid-section" id="mid-section">
             <div>
