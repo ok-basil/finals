@@ -697,4 +697,39 @@ button {
 	text-align: center;
 }
 
+.page-template-page-contact .site-main .second-section .address-map {
+	width: 100%;
+	display: flex;
+}
+
+.page-template-page-contact .site-main .second-section .address-map .address-holder {
+	width: 30%;
+	background-color: #FF2546;
+}
+
+.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content {
+	width: 100%;
+	display: flex;
+	padding: 10px;
+}
+
+.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content h1 {
+	color: #FFFFFF;
+	display: flex;
+	line-height: 96.8%;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content p {
+	color: #FFFFFF;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.page-template-page-contact .site-main .second-section .address-map .map {
+	width: 70%;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -641,6 +641,41 @@
                     }
                 }
             }
+
+            .address-map {
+                width: 100%;
+                display: flex;
+
+                .address-holder {
+                    width: 30%;
+                    background-color: $tertiary-color;
+
+                    .address-content {
+                        width: 100%;
+                        display: flex;
+                        padding: 10px;
+
+                        h1 {
+                            color: $secondary-color;
+                            display: flex;
+                            line-height: 96.8%;
+                            font-style: normal;
+                            font-weight: 700;
+                        }
+
+                        p {
+                            color: $secondary-color;
+                            font-style: normal;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .map {
+                    width: 70%;
+                }
+            }
         }
     }
 }
