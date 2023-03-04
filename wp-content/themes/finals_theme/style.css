@@ -661,6 +661,13 @@ button {
 	width: 52%;
 }
 
+.page-template-page-contact .site-main .second-section .contact-form .form {
+	margin-top: 32%;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
 .page-template-page-contact .site-main .second-section .contact-form .form-control {
 	width: 60%;
 	background: transparent;

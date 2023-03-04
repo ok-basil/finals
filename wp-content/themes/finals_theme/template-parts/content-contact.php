@@ -23,7 +23,7 @@ $post_id = get_the_ID();
                 <h4><?php the_field('call_to_action', $post_id); ?></h4>
             </div>
             <div class="contact-form">
-                <form id="contact-form" method="post" action="">
+                <form  class= "form" id="contact-form" method="post" action="">
                     <input name="name" type="text" class="form-control" placeholder="Full Name" required><br>
                     <input name="email" type="email" class="form-control" placeholder="Email" required><br>
                     <input name="phone-no" type="telephone" class="form-control" placeholder="Phone No" required><br>
