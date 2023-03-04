@@ -626,6 +626,7 @@ button {
 
 .page-template-page-contact .site-main .first-section {
 	width: 100%;
+	margin-top: 10%;
 }
 
 .page-template-page-contact .site-main .first-section .know-more {
@@ -703,14 +704,15 @@ button {
 }
 
 .page-template-page-contact .site-main .second-section .address-map .address-holder {
-	width: 30%;
+	width: 40%;
 	background-color: #FF2546;
 }
 
 .page-template-page-contact .site-main .second-section .address-map .address-holder .address-content {
-	width: 100%;
+	width: 61%;
 	display: flex;
-	padding: 10px;
+	flex-direction: column;
+	padding: 20%;
 }
 
 .page-template-page-contact .site-main .second-section .address-map .address-holder .address-content h1 {
@@ -729,7 +731,7 @@ button {
 }
 
 .page-template-page-contact .site-main .second-section .address-map .map {
-	width: 70%;
+	width: 60%;
 }
 
 /*# sourceMappingURL=style.css.map */

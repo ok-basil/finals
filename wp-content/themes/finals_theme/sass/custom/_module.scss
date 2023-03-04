@@ -572,6 +572,7 @@
     .site-main {
         .first-section {
             width: 100%;
+            margin-top: 10%;
 
             .know-more {
                 display: flex;
@@ -647,13 +648,14 @@
                 display: flex;
 
                 .address-holder {
-                    width: 30%;
+                    width: 40%;
                     background-color: $tertiary-color;
 
                     .address-content {
-                        width: 100%;
+                        width: 61%;
                         display: flex;
-                        padding: 10px;
+                        flex-direction: column;
+                        padding: 20%;
 
                         h1 {
                             color: $secondary-color;
@@ -673,7 +675,7 @@
                 }
 
                 .map {
-                    width: 70%;
+                    width: 60%;
                 }
             }
         }
