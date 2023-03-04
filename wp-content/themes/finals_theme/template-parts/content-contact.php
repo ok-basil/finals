@@ -17,21 +17,19 @@ $post_id = get_the_ID();
     </div>
 </section>
 <section class="second-section" id="second-section">
-    <div class="cta-wrapper" id="cta-wrapper">
-        <div class="site-wrapper">
-            <div class="container">
-                <div class="first-half" id="first-half">
-                    <h4><?php the_field('call_to_action', $post_id); ?></h4>
-                </div>
-                <div class="contact-form">
-                    <form id="contact-form" method="post" action="">
-                        <input name="name" type="text" class="form-control" placeholder="Full Name" required><br>
-                        <input name="email" type="email" class="form-control" placeholder="Email" required><br>
-                        <input name="phone-no" type="telephone" class="form-control" placeholder="Phone No" required><br>
-                        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-                        <input type="submit" class="form-control submit" value="Submit">
-                    </form>
-                </div>
+    <div class="site-wrapper">
+        <div class="container">
+            <div class="first-half" id="first-half">
+                <h4><?php the_field('call_to_action', $post_id); ?></h4>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form" method="post" action="">
+                    <input name="name" type="text" class="form-control" placeholder="Full Name" required><br>
+                    <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+                    <input name="phone-no" type="telephone" class="form-control" placeholder="Phone No" required><br>
+                    <input name="message" type="text" class="form-control" placeholder="Message" required></textarea><br>
+                    <button><p>Submit</p></button>
+                </form>
             </div>
         </div>
     </div>

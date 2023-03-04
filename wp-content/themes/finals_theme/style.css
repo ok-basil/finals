@@ -644,15 +644,11 @@ button {
 	width: 100%;
 }
 
-.page-template-page-contact .site-main .second-section .cta-wrapper {
-	width: 60%;
-}
-
-.page-template-page-contact .site-main .second-section .cta-wrapper .first-half {
+.page-template-page-contact .site-main .second-section .first-half {
 	width: 30%;
 }
 
-.page-template-page-contact .site-main .second-section .cta-wrapper .first-half h4 {
+.page-template-page-contact .site-main .second-section .first-half h4 {
 	font-size: 96px;
 	line-height: 96.8%;
 	display: flex;
@@ -661,13 +657,37 @@ button {
 	color: #000000;
 }
 
-.page-template-page-contact .site-main .second-section .cta-wrapper .contact-form .form-control {
-	width: 40%;
+.page-template-page-contact .site-main .second-section .contact-form {
+	width: 52%;
+}
+
+.page-template-page-contact .site-main .second-section .contact-form .form-control {
+	width: 60%;
 	background: transparent;
 	border: none;
 	outline: none;
 	border-bottom: 1px solid gray;
+	color: #000000;
+	font-size: 18px;
+}
+
+.page-template-page-contact .site-main .second-section .contact-form button {
+	background: #000000;
+	border-color: transparent;
 	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	line-height: 14px;
+	margin-top: 10px;
+	width: 20%;
+}
+
+.page-template-page-contact .site-main .second-section .contact-form button p {
+	font-size: 18px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

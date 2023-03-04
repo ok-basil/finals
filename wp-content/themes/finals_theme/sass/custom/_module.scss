@@ -589,31 +589,48 @@
         .second-section {
             width: 100%;
 
-            .cta-wrapper {
-                width: 60%;
+            .first-half {
+                width: 30%;
 
-                .first-half {
-                    width: 30%;
+                h4 {
+                    font-size: 96px;
+                    line-height: 96.8%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: -0.02em;
+                    color: $primary-color;
+                }
+            }
 
-                    h4 {
-                        font-size: 96px;
-                        line-height: 96.8%;
-                        display: flex;
-                        align-items: center;
-                        letter-spacing: -0.02em;
-                        color: $primary-color;
-                    }
+            .contact-form {
+                width: 52%;
+
+                .form-control {
+                    width: 60%;
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid gray;
+                    color: $primary-color;
+                    font-size: 18px;
                 }
 
-                .contact-form {
+                button {
+                    background: $primary-color;
+                    border-color: transparent;
+                    color: $secondary-color;
+                    display: flex;
+                    align-items: center;
+                    line-height: 14px;
+                    margin-top: 10px;
+                    width: 20%;
 
-                    .form-control {
-                        width: 40%;
-                        background: transparent;
-                        border: none;
-                        outline: none;
-                        border-bottom: 1px solid gray;
-                        color: $secondary-color;
+                    p {
+                        font-size: 18px;
+                        line-height: 14px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
                     }
                 }
             }
