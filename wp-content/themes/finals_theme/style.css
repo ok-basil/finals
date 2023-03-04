@@ -624,4 +624,50 @@ button {
 	color: #FF2546;
 }
 
+.page-template-page-contact .site-main .first-section {
+	width: 100%;
+}
+
+.page-template-page-contact .site-main .first-section .know-more {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+}
+
+.page-template-page-contact .site-main .first-section .know-more p {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.page-template-page-contact .site-main .second-section {
+	width: 100%;
+}
+
+.page-template-page-contact .site-main .second-section .cta-wrapper {
+	width: 60%;
+}
+
+.page-template-page-contact .site-main .second-section .cta-wrapper .first-half {
+	width: 30%;
+}
+
+.page-template-page-contact .site-main .second-section .cta-wrapper .first-half h4 {
+	font-size: 96px;
+	line-height: 96.8%;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+
+.page-template-page-contact .site-main .second-section .cta-wrapper .contact-form .form-control {
+	width: 40%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */

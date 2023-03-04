@@ -569,5 +569,54 @@
 }
 
 .page-template-page-contact {
-    
+    .site-main {
+        .first-section {
+            width: 100%;
+
+            .know-more {
+                display: flex;
+                flex-direction: column;
+                width: 55%;
+
+                p {
+                    font-size: 18px;
+                    line-height: 26px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .second-section {
+            width: 100%;
+
+            .cta-wrapper {
+                width: 60%;
+
+                .first-half {
+                    width: 30%;
+
+                    h4 {
+                        font-size: 96px;
+                        line-height: 96.8%;
+                        display: flex;
+                        align-items: center;
+                        letter-spacing: -0.02em;
+                        color: $primary-color;
+                    }
+                }
+
+                .contact-form {
+
+                    .form-control {
+                        width: 40%;
+                        background: transparent;
+                        border: none;
+                        outline: none;
+                        border-bottom: 1px solid gray;
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
 }
