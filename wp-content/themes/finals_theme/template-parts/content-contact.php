@@ -17,6 +17,7 @@ $post_id = get_the_ID();
     </div>
 </section>
 <section class="second-section" id="second-section">
+    <div class="yellow-container"></div>
     <div class="site-wrapper">
         <div class="container">
             <div class="first-half" id="first-half">
