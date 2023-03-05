@@ -68,6 +68,9 @@ ul {
 
 a {
 	text-decoration: none;
+	gap: 5px;
+	display: flex;
+	align-items: center;
 }
 
 button {
