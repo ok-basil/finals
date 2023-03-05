@@ -677,6 +677,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	gap: 2px;
+	margin-left: 5%;
 }
 
 .page-template-page-contact .site-main .second-section .contact-form .form-control {
