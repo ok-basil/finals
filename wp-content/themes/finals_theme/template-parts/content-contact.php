@@ -1,5 +1,4 @@
 <?php 
-
 /**
  * Template part for displaying the contact page
  * 
@@ -16,6 +15,7 @@ $post_id = get_the_ID();
         </div>
     </div>
 </section>
+
 <section class="second-section" id="second-section">
     <div class="yellow-container"></div>
     <div class="site-wrapper">
