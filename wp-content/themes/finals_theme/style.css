@@ -175,7 +175,7 @@ button {
 .second-section .yellow-container {
 	position: absolute;
 	background-color: #FFCF25;
-	width: 60%;
+	width: 62%;
 	height: 82%;
 }
 
@@ -698,7 +698,8 @@ button {
 	align-items: center;
 	line-height: 14px;
 	margin-top: 10px;
-	width: 20%;
+	width: 24%;
+	justify-content: center;
 }
 
 .page-template-page-contact .site-main .second-section .contact-form button p {
