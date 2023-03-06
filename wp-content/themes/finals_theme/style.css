@@ -32,11 +32,75 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Bold.woff2") format("woff2"), url("/fonts/Brown-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Light.woff2") format("woff2"), url("/fonts/Brown-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Bold.woff2") format("woff2"), url("/fonts/Brown-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Light.woff2") format("woff2"), url("/fonts/Brown-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Regular.woff2") format("woff2"), url("/fonts/Brown-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Regular.woff2") format("woff2"), url("/fonts/Brown-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Thin.woff2") format("woff2"), url("/fonts/Brown-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brown';
+	src: url("/fonts/Brown-Thin.woff2") format("woff2"), url("/fonts/Brown-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Oxygen;
+	font-family: Brown;
 	background-color: #E5E5E5;
 }
 
@@ -654,7 +718,7 @@ button {
 	position: absolute;
 	background-color: #FFCF25;
 	width: 62%;
-	height: 82%;
+	height: 98%;
 }
 
 .page-template-page-contact .site-main .second-section .container {
@@ -686,7 +750,21 @@ button {
 	margin-left: 5%;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form-control {
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7 no-js p label {
+	font-size: 18px !important;
+}
+
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7 no-js p label .wpcf7-form-control-wrap input {
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	font-size: 18px;
+}
+
+.page-template-page-contact .site-main .second-section .container .contact-form .form .form-control {
 	width: 100%;
 	background: transparent;
 	border: none;
@@ -696,7 +774,7 @@ button {
 	font-size: 18px;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form button {
+.page-template-page-contact .site-main .second-section .container .contact-form .form button {
 	background: #000000;
 	border-color: transparent;
 	color: #FFFFFF;
@@ -706,9 +784,11 @@ button {
 	margin-top: 10px;
 	width: 24%;
 	justify-content: center;
+	font-size: 18px;
+	padding: 2% 15%;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form button p {
+.page-template-page-contact .site-main .second-section .container .contact-form .form button p {
 	font-size: 18px;
 	line-height: 14px;
 	display: flex;

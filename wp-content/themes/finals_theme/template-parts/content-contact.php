@@ -25,11 +25,7 @@ $post_id = get_the_ID();
             </div>
             <div class="contact-form">
                 <form  class= "form" id="contact-form" method="post" action="">
-                    <input name="name" type="text" class="form-control" placeholder="Full Name" required><br>
-                    <input name="email" type="email" class="form-control" placeholder="Email" required><br>
-                    <input name="phone-no" type="telephone" class="form-control" placeholder="Phone No" required><br>
-                    <input name="message" type="text" class="form-control" placeholder="Message" required></textarea><br>
-                    <button><p>Submit</p></button>
+                    <?php the_field('contact_form', $post_id); ?>
                 </form>
             </div>
         </div>
@@ -46,7 +42,7 @@ $post_id = get_the_ID();
             </div>
         </div>
         <div class="map" id="map">
-            <p><?php the_field('map_location', $post_id); ?></p>
+            <p><div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=120%20vyse%20street%20Birmingham,%20United%20Kingdom%20+(Studio%2014)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div></p>
         </div>
     </div>
 </section>
