@@ -62,7 +62,7 @@
                                         <?php echo truncate($post_content, 90); }?>
                                     </p>
                                     <span>
-                                        <p>Business</p>
+                                        <p><?php $item = get_the_category(); echo $item[0]->name; ?></p>
                                         <span>
                                             <a href="<?php the_permalink(); ?>"><p>Read More</p>
                                             <img src="<?php echo get_template_directory_uri() ?> /assets/icons/show-more.png" alt="show-more"></a>
