@@ -121,7 +121,7 @@ h6 {
 }
 
 p {
-	font-size: 13px;
+	font-size: 18px;
 }
 
 ul {
@@ -456,7 +456,7 @@ button {
 	height: 37px;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 13px;
+	font-size: 18px;
 	line-height: 12px;
 }
 
@@ -750,11 +750,11 @@ button {
 	margin-left: 5%;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7 no-js p label {
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label {
 	font-size: 18px !important;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7 no-js p label .wpcf7-form-control-wrap input {
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input {
 	width: 100%;
 	background: transparent;
 	border: none;
@@ -764,17 +764,14 @@ button {
 	font-size: 18px;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .form-control {
-	width: 100%;
-	background: transparent;
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:focus,
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:active {
+	border-color: none;
+	box-shadow: none;
 	border: none;
-	outline: none;
-	border-bottom: 1px solid gray;
-	color: #000000;
-	font-size: 18px;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form button {
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) {
 	background: #000000;
 	border-color: transparent;
 	color: #FFFFFF;
@@ -782,18 +779,20 @@ button {
 	align-items: center;
 	line-height: 14px;
 	margin-top: 10px;
-	width: 24%;
+	width: 0%;
 	justify-content: center;
 	font-size: 18px;
-	padding: 2% 15%;
+	padding: 2% 14%;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form button p {
+.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) input.wpcf7-form-control.has-spinner.wpcf7-submit {
 	font-size: 18px;
 	line-height: 14px;
 	display: flex;
 	align-items: center;
 	text-align: center;
+	background: transparent;
+	color: #FFFFFF;
 }
 
 .page-template-page-contact .site-main .second-section .address-map {
@@ -803,6 +802,7 @@ button {
 
 .page-template-page-contact .site-main .second-section .address-map .address-holder {
 	width: 40%;
+	height: 10%;
 	background-color: #FF2546;
 }
 

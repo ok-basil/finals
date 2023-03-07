@@ -629,13 +629,14 @@
                         flex-direction: column;
                         gap: 2px;
                         margin-left: 5%;
-
-                        .wpcf7 no-js {
+                        
+                        .wpcf7.no-js {
                             p {
                                 label {
                                     font-size: 18px!important;
 
-                                    .wpcf7-form-control-wrap {
+                                    span.wpcf7-form-control-wrap {
+
                                         input {
                                             width: 100%;
                                             background: transparent;
@@ -645,39 +646,38 @@
                                             color: $primary-color;
                                             font-size: 18px;
                                         }
+
+                                        input:focus,
+                                        input:active {
+                                            border-color: none;
+                                            box-shadow: none;
+                                            border: none;
+                                        }
                                     }
                                 }
                             }
-                        }
-                        .form-control {
-                            width: 100%;
-                            background: transparent;
-                            border: none;
-                            outline: none;
-                            border-bottom: 1px solid gray;
-                            color: $primary-color;
-                            font-size: 18px;
-                        }
-        
-                        button {
-                            background: $primary-color;
-                            border-color: transparent;
-                            color: $secondary-color;
-                            display: flex;
-                            align-items: center;
-                            line-height: 14px;
-                            margin-top: 10px;
-                            width: 24%;
-                            justify-content: center;
-                            font-size: 18px;
-                            padding: 2% 15%;
-        
-                            p {
-                                font-size: 18px;
-                                line-height: 14px;
+                            p:nth-of-type(5) {
+                                background: $primary-color;
+                                border-color: transparent;
+                                color: $secondary-color;
                                 display: flex;
                                 align-items: center;
-                                text-align: center;
+                                line-height: 14px;
+                                margin-top: 10px;
+                                width: 0%;
+                                justify-content: center;
+                                font-size: 18px;
+                                padding: 2% 14%;
+
+                                input.wpcf7-form-control.has-spinner.wpcf7-submit {
+                                    font-size: 18px;
+                                    line-height: 14px;
+                                    display: flex;
+                                    align-items: center;
+                                    text-align: center;
+                                    background: transparent;
+                                    color: $secondary-color;
+                                }
                             }
                         }
                     }
@@ -691,6 +691,7 @@
 
                 .address-holder {
                     width: 40%;
+                    height: 10%;
                     background-color: $tertiary-color;
 
                     .address-content {
