@@ -1186,16 +1186,46 @@
             width: 100%;
             margin-top: 10%;
 
-            .know-more {
-                display: flex;
-                flex-direction: column;
-                width: 55%;
+            .site-wrapper {
+                width: 83%;
+                padding: 0 0px;
+                margin: auto;
 
-                p {
-                    font-size: 18px;
-                    line-height: 26px;
-                    font-weight: 400;
+                .know-more {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+    
+                    p {
+                        font-size: 18px;
+                        line-height: 26px;
+                        font-weight: 400;
+                    }
                 }
+            }
+
+            @include respond(sm) {
+                width: 100%;
+                margin-top: 10%;
+
+                .site-wrapper {
+                    width: 79%;
+                    margin: auto;
+                    padding: 0 0px;
+
+                    .know-more {
+                        display: flex;
+                        flex-direction: column;
+                        width: 55%;
+        
+                        p {
+                            font-size: 18px;
+                            line-height: 26px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
             }
         }
 
