@@ -49,33 +49,84 @@
 .first-section {
     width: 100%;
 
-    .container {
-        h1 {
-            font-weight: 400;
-            line-height: 127.6%; /* or 61px */
-            align-items: center;
-            letter-spacing: -0.02em;
-            width: 70%;
-            color: $primary-color;
-        }
+    .site-wrapper {
+        padding: 0 0px;
+        margin: auto;
+        width: 83%;
 
-        .filter-posts {
+        .container {
             display: flex;
-            justify-content: flex-end;
-            width: 43%;
-            height: auto;
-            align-items: center;
+            flex-direction: column;
+            width: 100%;
 
-            p {
-                line-height: 111%; /* or 20px */
+            h1 {
+                font-weight: 300;
+                width: 100%;
             }
 
-            span {
+            .filter-posts {
                 display: flex;
-                background-color: $secondary-color;
-                padding: 0px 20px;
-                gap: 10px;
-                margin-left: 8px;
+                justify-content: flex-start;
+                width: 100%;
+                height: auto;
+                align-items: center;
+
+                p {
+                    line-height: 111%; /* or 20px */
+                }
+
+                span {
+                    display: flex;
+                    background-color: $secondary-color;
+                    padding: 0px 20px;
+                    gap: 10px;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+
+    @include respond(sm) {
+        width: 100%;
+
+        .site-wrapper {
+            width: 79%;
+            padding: 0 0px;
+            margin: auto;
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+
+                h1 {
+                    font-weight: 400;
+                    line-height: 127.6%; /* or 61px */
+                    align-items: center;
+                    letter-spacing: -0.02em;
+                    width: 70%;
+                    color: $primary-color;
+                }
+    
+                .filter-posts {
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 43%;
+                    height: auto;
+                    align-items: center;
+    
+                    p {
+                        line-height: 111%; /* or 20px */
+                    }
+    
+                    span {
+                        display: flex;
+                        background-color: $secondary-color;
+                        padding: 0px 20px;
+                        gap: 10px;
+                        margin-left: 8px;
+                    }
+                }
             }
         }
     }
@@ -86,106 +137,42 @@
     margin-top: 7%;
     padding-bottom: 10%;
 
-    .container {
-        justify-content: space-between;
-        width: 100%;
+    .site-wrapper {
+        width: 83%;
+        padding: 0 0px;
+        margin: auto;
 
-        .blog-posts-wrapper {
+        .container {
             display: flex;
-            width: 100%;
-            height: 100%;
-            flex-wrap: wrap;
-            gap: 20px;
-
-            .post-style {
-                width: 32%;
-                background-color: $secondary-color;
+            justify-content: space-between;
+            width: 150%;
+    
+            .blog-posts-wrapper {
                 display: flex;
-                flex-direction: column;
-                align-items: center;
+                width: 100%;
+                height: 100%;
+                flex-wrap: wrap;
+                gap: 20px;
     
-                .first {
-                    img {
-                        width: 100%;
-                    }
-                }
-                .second {
-                    padding: 16px;
-    
-                    h2 {
-                        width: 100%;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 29px;
-                        letter-spacing: -0.02em;
-                        color: $primary-color;
-                    }
-    
-                    p {
-                        width: 100%;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 25px;
-                        color: $primary-color;
-                    }
-    
-                    span {
-                        display: flex;
-                        align-items: center;
-                        
-                        p {
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: 14px;
-                            display: flex;
-                            align-items: center;
-                            color: #828282;
-                        }
-    
-                        span {
-                            display: flex;
-                            align-items: center;
-                            width: 48%;
-    
-                            p{
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 14px;
-                                display: flex;
-                                align-items: center;
-                                color: $tertiary-color;
-                            }
-    
-                            img {
-                                width: 8.94px;
-                                height: 14px;
-                                object-fit: contain;
-                            }
-                        }
-                    }
-                }
-    
-                &:first-of-type {
-                    width: 64.8%;
+                .post-style {
+                    width: 65%;
                     background-color: $secondary-color;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    margin-right: 12px;
         
                     .first {
                         img {
                             width: 100%;
                         }
                     }
-        
                     .second {
-                        padding: 30px;
+                        padding: 16px;
         
                         h2 {
-                            width: 56%;
-                            font-weight: 700;
+                            width: 100%;
                             font-style: normal;
+                            font-weight: 600;
                             line-height: 29px;
                             letter-spacing: -0.02em;
                             color: $primary-color;
@@ -202,7 +189,6 @@
                         span {
                             display: flex;
                             align-items: center;
-                            padding-top: 15px;
                             
                             p {
                                 font-style: normal;
@@ -216,7 +202,7 @@
                             span {
                                 display: flex;
                                 align-items: center;
-                                width: 19%;
+                                width: 50%;
         
                                 p{
                                     font-style: normal;
@@ -235,10 +221,251 @@
                             }
                         }
                     }
+        
+                    &:first-of-type {
+                        width: 64.8%;
+                        background-color: $secondary-color;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-right: 12px;
+            
+                        .first {
+                            img {
+                                width: 100%;
+                            }
+                        }
+            
+                        .second {
+                            padding: 16px;
+            
+                            h2 {
+                                width: 100%;
+                                font-weight: 600;
+                                font-style: normal;
+                                line-height: 29px;
+                                letter-spacing: -0.02em;
+                                color: $primary-color;
+                            }
+            
+                            p {
+                                width: 100%;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 25px;
+                                color: $primary-color;
+                            }
+            
+                            span {
+                                display: flex;
+                                align-items: center;
+                                padding-top: 15px;
+                                
+                                p {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 14px;
+                                    display: flex;
+                                    align-items: center;
+                                    color: #828282;
+                                }
+            
+                                span {
+                                    display: flex;
+                                    align-items: center;
+                                    width: 50%;
+                                    margin-bottom: 15px;
+            
+                                    p{
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        color: $tertiary-color;
+                                    }
+            
+                                    img {
+                                        width: 8.94px;
+                                        height: 14px;
+                                        object-fit: contain;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
-       
+    }
+
+    @include respond(sm) {
+        width: 100%;
+        margin-top: 7%;
+        padding-bottom: 10%;
+    
+        .site-wrapper {
+            width: 79%;
+            padding: 0 0px;
+            margin: auto;
+
+            .container {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                width: 100%;
+        
+                .blog-posts-wrapper {
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    flex-wrap: wrap;
+                    gap: 20px;
+        
+                    .post-style {
+                        width: 32%;
+                        background-color: $secondary-color;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+            
+                        .first {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .second {
+                            padding: 16px;
+            
+                            h2 {
+                                width: 100%;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 29px;
+                                letter-spacing: -0.02em;
+                                color: $primary-color;
+                            }
+            
+                            p {
+                                width: 100%;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 25px;
+                                color: $primary-color;
+                            }
+            
+                            span {
+                                display: flex;
+                                align-items: center;
+                                
+                                p {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 14px;
+                                    display: flex;
+                                    align-items: center;
+                                    color: #828282;
+                                }
+            
+                                span {
+                                    display: flex;
+                                    align-items: center;
+                                    width: 48%;
+            
+                                    p{
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        color: $tertiary-color;
+                                    }
+            
+                                    img {
+                                        width: 8.94px;
+                                        height: 14px;
+                                        object-fit: contain;
+                                    }
+                                }
+                            }
+                        }
+            
+                        &:first-of-type {
+                            width: 64.8%;
+                            background-color: $secondary-color;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin-right: 12px;
+                
+                            .first {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                
+                            .second {
+                                padding: 30px;
+                
+                                h2 {
+                                    width: 56%;
+                                    font-weight: 700;
+                                    font-style: normal;
+                                    line-height: 29px;
+                                    letter-spacing: -0.02em;
+                                    color: $primary-color;
+                                }
+                
+                                p {
+                                    width: 100%;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                    color: $primary-color;
+                                }
+                
+                                span {
+                                    display: flex;
+                                    align-items: center;
+                                    padding-top: 15px;
+                                    
+                                    p {
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        color: #828282;
+                                    }
+                
+                                    span {
+                                        display: flex;
+                                        align-items: center;
+                                        width: 19%;
+                
+                                        p{
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            line-height: 14px;
+                                            display: flex;
+                                            align-items: center;
+                                            color: $tertiary-color;
+                                        }
+                
+                                        img {
+                                            width: 8.94px;
+                                            height: 14px;
+                                            object-fit: contain;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
     }
 }
 
@@ -249,164 +476,347 @@
     height: 100%;
     margin-top: 0%;
 
-    .footer-holder {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-between;
-        padding-top: 40px;
+    .site-wrapper {
+        width: 83%;
+        padding: 0 0px;
+        margin: auto;
 
-        .first-footer {
+        .footer-holder {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             width: 100%;
-
-            .first-half {
+            justify-content: space-between;
+            padding-top: 40px;
+    
+            .first-footer {
                 display: flex;
                 flex-direction: column;
-                width: 42%;
-
-                h2 {
-                    color: $secondary-color;
-                }
-
-                span {
+                justify-content: space-between;
+                width: 100%;
+    
+                .first-half {
                     display: flex;
                     flex-direction: column;
-                    
-                    p {
+                    width: 100%;
+    
+                    h2 {
                         color: $secondary-color;
                     }
-
-                    .contact-form {
+    
+                    span {
                         display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        gap: 2px;
-                        margin-top: 20px;
+                        flex-direction: column;
                         
-                        .message-input {
-                            width: 78%;
-                            height: auto;
-                            border-color: $secondary-color;
-                            border-width: 1px;
-                            background-color: $primary-color;
-                            margin-right: 8px;
+                        p {
                             color: $secondary-color;
                         }
-
-                        button {
-                            background-color: $tertiary-color;
-                            color: $secondary-color;
-                            width: 35%;
+    
+                        .contact-form {
+                            display: flex;
                             align-items: center;
-                            height: 37px;
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: $secondary-size;
-                            line-height: 0px;
+                            justify-content: space-between;
+                            gap: 2px;
+                            margin-top: 20px;
+                            
+                            .message-input {
+                                width: 78%;
+                                height: auto;
+                                border-color: $secondary-color;
+                                border-width: 1px;
+                                background-color: $primary-color;
+                                margin-right: 8px;
+                                color: $secondary-color;
+                            }
+    
+                            button {
+                                background-color: $tertiary-color;
+                                color: $secondary-color;
+                                width: 35%;
+                                align-items: center;
+                                height: 37px;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: $secondary-size;
+                                line-height: 0px;
+                                
+                                p {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .second-half {
+                    display: flex;
+                    width: 100%;
+    
+                    .contact-details {
+                        display: flex;
+                        flex-direction: column;
+                        
+                        h2 {
+                            color: $secondary-color;
+                            line-height: 28px;
+                            display: flex;
+                            align-items: center;
+                        }
+    
+                        span {
+                            h5 {
+                                text-decoration: underline;
+                                color: $secondary-color;
+                            }
+    
+                            .email-address {
+                                color: $tertiary-color;
+                                margin-top: -17px;
+                            }
+                        }
+    
+                        span {
+                            h5 {
+                                text-decoration: underline;
+                                color: $secondary-color;
+                            }
+    
+                            p {
+                                color: $secondary-color;
+                                margin-top: -17px;
+                                width: 60%;
+                            }
+                        }
+                    }
+    
+                    .socials {
+                        width: 50%;
+                        h2 {
+                            color: $secondary-color;
+                            line-height: 28px;
+                            display: flex;
+                            align-items: center;
+                        }
+    
+                        span {
+                            display: flex;
+                            gap: 22px;
+    
+                            img {
+                                max-width: 24px;
+                                height: auto;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .second-footer {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                margin-top: 10%;
+    
+                .copyright-half {
+                    display: flex;
+                    justify-content: flex-start;
+    
+                    h6 {
+                        color: #828282;
+                    }
+                }
+    
+                .privacy-half {
+                    span {
+                        display: flex;
+                        justify-content: flex-end;
+                        gap: 10px;
+    
+                        h6 {
+                            text-decoration: underline;
+                            color: #828282;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond(sm) {
+        background-color: $primary-color;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+    
+        .site-wrapper {
+            width: 79%;
+            padding: 0 0px;
+            margin: auto;
+
+            .footer-holder {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                justify-content: space-between;
+                padding-top: 40px;
+        
+                .first-footer {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100%;
+        
+                    .first-half {
+                        display: flex;
+                        flex-direction: column;
+                        width: 42%;
+        
+                        h2 {
+                            color: $secondary-color;
+                        }
+        
+                        span {
+                            display: flex;
+                            flex-direction: column;
                             
                             p {
+                                color: $secondary-color;
+                            }
+        
+                            .contact-form {
                                 display: flex;
                                 align-items: center;
-                                justify-content: center;
+                                justify-content: space-between;
+                                gap: 2px;
+                                margin-top: 20px;
+                                
+                                .message-input {
+                                    width: 78%;
+                                    height: auto;
+                                    border-color: $secondary-color;
+                                    border-width: 1px;
+                                    background-color: $primary-color;
+                                    margin-right: 8px;
+                                    color: $secondary-color;
+                                }
+        
+                                button {
+                                    background-color: $tertiary-color;
+                                    color: $secondary-color;
+                                    width: 35%;
+                                    align-items: center;
+                                    height: 37px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: $secondary-size;
+                                    line-height: 0px;
+                                    
+                                    p {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+        
+                    .second-half {
+                        display: flex;
+                        width: 42%;
+        
+                        .contact-details {
+                            display: flex;
+                            flex-direction: column;
+                            
+                            h2 {
+                                color: $secondary-color;
+                                line-height: 28px;
+                                display: flex;
+                                align-items: center;
+                            }
+        
+                            span {
+                                h5 {
+                                    text-decoration: underline;
+                                    color: $secondary-color;
+                                }
+        
+                                .email-address {
+                                    color: $tertiary-color;
+                                    margin-top: -17px;
+                                }
+                            }
+        
+                            span {
+                                h5 {
+                                    text-decoration: underline;
+                                    color: $secondary-color;
+                                }
+        
+                                p {
+                                    color: $secondary-color;
+                                    margin-top: -17px;
+                                    width: 60%;
+                                }
+                            }
+                        }
+        
+                        .socials {
+                            width: 50%;
+                            h2 {
+                                color: $secondary-color;
+                                line-height: 28px;
+                                display: flex;
+                                align-items: center;
+                            }
+        
+                            span {
+                                display: flex;
+                                gap: 22px;
+        
+                                img {
+                                    max-width: 24px;
+                                    height: auto;
+                                    object-fit: contain;
+                                }
+                            }
+                        }
+                    }
+                }
+        
+                .second-footer {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    margin-top: 10%;
+        
+                    .copyright-half {
+                        display: flex;
+                        justify-content: flex-start;
+        
+                        h6 {
+                            color: #828282;
+                        }
+                    }
+        
+                    .privacy-half {
+                        span {
+                            display: flex;
+                            justify-content: flex-end;
+                            gap: 10px;
+        
+                            h6 {
+                                text-decoration: underline;
+                                color: #828282;
                             }
                         }
                     }
                 }
             }
 
-            .second-half {
-                display: flex;
-                width: 42%;
-
-                .contact-details {
-                    display: flex;
-                    flex-direction: column;
-                    
-                    h2 {
-                        color: $secondary-color;
-                        line-height: 28px;
-                        display: flex;
-                        align-items: center;
-                    }
-
-                    span {
-                        h5 {
-                            text-decoration: underline;
-                            color: $secondary-color;
-                        }
-
-                        .email-address {
-                            color: $tertiary-color;
-                            margin-top: -17px;
-                        }
-                    }
-
-                    span {
-                        h5 {
-                            text-decoration: underline;
-                            color: $secondary-color;
-                        }
-
-                        p {
-                            color: $secondary-color;
-                            margin-top: -17px;
-                            width: 60%;
-                        }
-                    }
-                }
-
-                .socials {
-                    width: 50%;
-                    h2 {
-                        color: $secondary-color;
-                        line-height: 28px;
-                        display: flex;
-                        align-items: center;
-                    }
-
-                    span {
-                        display: flex;
-                        gap: 22px;
-
-                        img {
-                            max-width: 24px;
-                            height: auto;
-                            object-fit: contain;
-                        }
-                    }
-                }
-            }
-        }
-
-        .second-footer {
-            display: flex;
-            width: 100%;
-            justify-content: space-between;
-            margin-top: 10%;
-
-            .copyright-half {
-                display: flex;
-                justify-content: flex-start;
-
-                h6 {
-                    color: #828282;
-                }
-            }
-
-            .privacy-half {
-                span {
-                    display: flex;
-                    justify-content: flex-end;
-                    gap: 10px;
-
-                    h6 {
-                        text-decoration: underline;
-                        color: #828282;
-                    }
-                }
-            }
         }
     }
 }
@@ -439,81 +849,95 @@
             position: relative;
             background-repeat: no-repeat;
             background-size: cover;
+            
+            .site-wrapper {
+                width: 83%;
+                padding: 0 0px;
+                margin: auto;
 
-            .the-title {
-                position: relative;
-                vertical-align: bottom;
-                width: 70%;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                padding-top: 10%;
-                margin-left: 10%;
-
-                h1 {
-                    color: $secondary-color;
-                    font-size: 72px;
-                    font-weight: 300;
+                .the-title {
+                    position: relative;
+                    vertical-align: bottom;
+                    width: 70%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding-top: 30%;
+                    margin-left: 0%;
+    
+                    h1 {
+                        color: $secondary-color;
+                        font-size: 48px;
+                        font-weight: 300;
+                    }
                 }
             }
+
         }
 
         .content {
-            .mid-section {
-                width: 100%;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                margin-top: 30px;
 
-                .top-half {
-                    display: flex;
+            .site-wrapper {
+                width: 83%;
+                padding: 0 0px;
+                margin: auto;
+
+                .mid-section {
                     width: 100%;
-                    align-items: center;
-
-                    span {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 30px;
+    
+                    .top-half {
                         display: flex;
                         width: 100%;
-
+                        align-items: center;
+    
                         span {
                             display: flex;
-                            gap: 10px;
-                            align-items: center;
-
-                            img {
-                                width: 8.04px;
-                                height: 12px;
-                                object-fit: contain;
-                            }
-
-                            form {
-                                input {
-                                    border: 0;
-                                    background-color: transparent;
-                                    font-weight: 700;
-                                    font-size: 24px;
+                            width: 100%;
+    
+                            span {
+                                display: flex;
+                                gap: 10px;
+                                align-items: center;
+    
+                                img {
+                                    width: 8.04px;
+                                    height: 12px;
+                                    object-fit: contain;
+                                }
+    
+                                form {
+                                    input {
+                                        border: 0;
+                                        background-color: transparent;
+                                        font-weight: 700;
+                                        font-size: 20px;
+                                    }
                                 }
                             }
-                        }
-
-                        p {
-                            font-size: 18px;
-                            font-weight: 700;
-                            width: 21%;
+    
+                            p {
+                                font-size: 18px;
+                                font-weight: 700;
+                                width: 101%;
+                            }
                         }
                     }
-                }
-
-                .lower-half {
-                    width: 100%;
-                    align-items: center;
-                    margin-top: 5%;
-                    
-                    p {
-                        font-style: normal;
-                        font-weight: 300;
-                        font-size: 18px;
-                        line-height: 157.3%;
+    
+                    .lower-half {
+                        width: 100%;
+                        align-items: center;
+                        margin-top: 5%;
+                        
+                        p {
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 18px;
+                            line-height: 157.3%;
+                        }
                     }
                 }
             }
@@ -524,45 +948,230 @@
             height: 100%;
             background-color: $primary-color;
             margin-top: 100px;
+            
+            .site-wrapper {
+                width: 83%;
+                padding: 0 0px;
+                margin: auto;
 
-            .message {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 10px;
-                padding: 90px 39px;
-
-                h4 {
-                    color: $secondary-color;
-                    font-size: 64px;
-                    font-weight: 700;
-                    margin: 0px;
-                }
-
-                p {
-                    color: $secondary-color;
-                    font-weight: 400;
-                    font-size: 24px;
-                }
-
-                span {
-                    padding-top: 25px;
-                    
-                    button {
-                        background-color: $primary-color;
-                        border: 2px solid $tertiary-color;
-                        color: $primary-color;
-                        display: flex;
-                        align-items: center;
-                        gap: 10px;
-
-                        p {
-                            font-size: 18px;
-                            font-weight: 700;
-                            color: $tertiary-color;
+                .message {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    padding: 90px 39px;
+    
+                    h4 {
+                        color: $secondary-color;
+                        font-size: 64px;
+                        font-weight: 700;
+                        margin: 0px;
+                    }
+    
+                    p {
+                        color: $secondary-color;
+                        font-weight: 400;
+                        font-size: 24px;
+                    }
+    
+                    span {
+                        padding-top: 25px;
+                        
+                        button {
+                            background-color: $primary-color;
+                            border: 2px solid $tertiary-color;
+                            color: $primary-color;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+    
+                            p {
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: $tertiary-color;
+                            }
                         }
                     }
                 }
+            }
+        }
+    }
+
+    @include respond(sm) {
+        .site-header {
+            margin-top: 35px;
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            .site-header {
+                width: 79%;
+                padding: 0 0px;
+                margin: auto;
+
+                .navbar-list {
+                    .menu-list {
+                        a {
+                            color: $secondary-color!important;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .site-main {
+            .blog-post-header {
+                width: 100%;
+                height: 400px;
+                position: relative;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+                .site-header {
+                    width: 79%;
+                    padding: 0 0px;
+                    margin: auto;
+
+                    .the-title {
+                        position: relative;
+                        vertical-align: bottom;
+                        width: 70%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        padding-top: 10%;
+                        margin-left: 10%;
+        
+                        h1 {
+                            color: $secondary-color;
+                            font-size: 72px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+            }
+    
+            .content {
+
+                .site-wrapper {
+                    width: 79%;
+                    padding: 0 0px;
+                    margin: auto;
+
+                    .mid-section {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 30px;
+        
+                        .top-half {
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+        
+                            span {
+                                display: flex;
+                                width: 100%;
+        
+                                span {
+                                    display: flex;
+                                    gap: 10px;
+                                    align-items: center;
+        
+                                    img {
+                                        width: 8.04px;
+                                        height: 12px;
+                                        object-fit: contain;
+                                    }
+        
+                                    form {
+                                        input {
+                                            border: 0;
+                                            background-color: transparent;
+                                            font-weight: 700;
+                                            font-size: 24px;
+                                        }
+                                    }
+                                }
+        
+                                p {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    width: 21%;
+                                }
+                            }
+                        }
+        
+                        .lower-half {
+                            width: 100%;
+                            align-items: center;
+                            margin-top: 5%;
+                            
+                            p {
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 18px;
+                                line-height: 157.3%;
+                            }
+                        }
+                    }
+                }
+
+            }
+    
+            .send-message {
+                width: 100%;
+                height: 100%;
+                background-color: $primary-color;
+                margin-top: 100px;
+                
+                .site-wrapper {
+                    width: 79%;
+                    padding: 0 0px;
+                    margin: auto;
+
+                    .message {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 10px;
+                        padding: 90px 39px;
+        
+                        h4 {
+                            color: $secondary-color;
+                            font-size: 64px;
+                            font-weight: 700;
+                            margin: 0px;
+                        }
+        
+                        p {
+                            color: $secondary-color;
+                            font-weight: 400;
+                            font-size: 24px;
+                        }
+        
+                        span {
+                            padding-top: 25px;
+                            
+                            button {
+                                background-color: $primary-color;
+                                border: 2px solid $tertiary-color;
+                                color: $primary-color;
+                                display: flex;
+                                align-items: center;
+                                gap: 10px;
+        
+                                p {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: $tertiary-color;
+                                }
+                            }
+                        }
+                    }
+                }
+
             }
         }
     }
@@ -601,6 +1210,8 @@
             }
             
             .container {
+                display: flex;
+                width: 100%;
                 position: relative;
 
                 .first-half {
