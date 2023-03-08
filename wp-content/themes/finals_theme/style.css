@@ -1359,27 +1359,52 @@ button {
 
 .page-template-page-contact .site-main .second-section {
 	width: 100%;
+	/*
+	@if $breakpoint ==xl {
+
+		@media only screen and (miin-width: 80em) {
+			@content;
+		}
+
+		//1280px
+	}
+
+	@if $breakpoint ==2xl {
+		@media only screen and (max-width: 96em) {
+			@content;
+		}
+
+		//1536px
+	}
+	*/
 }
 
 .page-template-page-contact .site-main .second-section .yellow-container {
 	position: absolute;
 	background-color: #FFCF25;
-	width: 62%;
-	height: 98%;
+	width: 100%;
+	height: 30%;
 }
 
-.page-template-page-contact .site-main .second-section .container {
+.page-template-page-contact .site-main .second-section .site-wrapper {
+	width: 83%;
+	padding: 0 0px;
+	margin: auto;
+}
+
+.page-template-page-contact .site-main .second-section .site-wrapper .container {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	position: relative;
 }
 
-.page-template-page-contact .site-main .second-section .container .first-half {
-	width: 30%;
+.page-template-page-contact .site-main .second-section .site-wrapper .container .first-half {
+	width: 100%;
 }
 
-.page-template-page-contact .site-main .second-section .container .first-half h4 {
-	font-size: 96px;
+.page-template-page-contact .site-main .second-section .site-wrapper .container .first-half h4 {
+	font-size: 48px;
 	line-height: 96.8%;
 	display: flex;
 	align-items: center;
@@ -1387,11 +1412,11 @@ button {
 	color: #000000;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form {
-	width: 52%;
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form {
+	width: 100%;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form {
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form {
 	margin-top: 32%;
 	display: flex;
 	flex-direction: column;
@@ -1399,11 +1424,11 @@ button {
 	margin-left: 5%;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label {
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label {
 	font-size: 18px !important;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input {
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input {
 	width: 100%;
 	background: transparent;
 	border: none;
@@ -1413,14 +1438,14 @@ button {
 	font-size: 18px;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:focus,
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:active {
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:focus,
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:active {
 	border-color: none;
 	box-shadow: none;
 	border: none;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) {
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) {
 	background: #000000;
 	border-color: transparent;
 	color: #FFFFFF;
@@ -1434,7 +1459,7 @@ button {
 	padding: 2% 14%;
 }
 
-.page-template-page-contact .site-main .second-section .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) input.wpcf7-form-control.has-spinner.wpcf7-submit {
+.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) input.wpcf7-form-control.has-spinner.wpcf7-submit {
 	font-size: 18px;
 	line-height: 14px;
 	display: flex;
@@ -1442,27 +1467,35 @@ button {
 	text-align: center;
 	background: transparent;
 	color: #FFFFFF;
+	border: none;
 }
 
 .page-template-page-contact .site-main .second-section .address-map {
 	width: 100%;
 	display: flex;
+	flex-direction: column;
 }
 
 .page-template-page-contact .site-main .second-section .address-map .address-holder {
-	width: 40%;
+	width: 100%;
 	height: 10%;
 	background-color: #FF2546;
 }
 
-.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content {
+.page-template-page-contact .site-main .second-section .address-map .address-holder .site-wrapper {
+	width: 83%;
+	padding: 0 0px;
+	margin: auto;
+}
+
+.page-template-page-contact .site-main .second-section .address-map .address-holder .site-wrapper .address-content {
 	width: 61%;
 	display: flex;
 	flex-direction: column;
 	padding: 20%;
 }
 
-.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content h1 {
+.page-template-page-contact .site-main .second-section .address-map .address-holder .site-wrapper .address-content h1 {
 	color: #FFFFFF;
 	display: flex;
 	line-height: 96.8%;
@@ -1470,7 +1503,7 @@ button {
 	font-weight: 700;
 }
 
-.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content p {
+.page-template-page-contact .site-main .second-section .address-map .address-holder .site-wrapper .address-content p {
 	color: #FFFFFF;
 	font-style: normal;
 	font-size: 16px;
@@ -1478,7 +1511,123 @@ button {
 }
 
 .page-template-page-contact .site-main .second-section .address-map .map {
-	width: 60%;
+	width: 100%;
+}
+
+@media only screen and (min-width: 40em) {
+	.page-template-page-contact .site-main .second-section {
+		width: 100%;
+	}
+	.page-template-page-contact .site-main .second-section .yellow-container {
+		position: absolute;
+		background-color: #FFCF25;
+		width: 62%;
+		height: 98%;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper {
+		width: 79%;
+		margin: auto;
+		padding: 0 0px;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		position: relative;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .first-half {
+		width: 30%;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .first-half h4 {
+		font-size: 96px;
+		line-height: 96.8%;
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.02em;
+		color: #000000;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form {
+		width: 52%;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form {
+		margin-top: 32%;
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		margin-left: 5%;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label {
+		font-size: 18px !important;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input {
+		width: 100%;
+		background: transparent;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid #000000;
+		color: #000000;
+		font-size: 18px;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:focus,
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input:active {
+		border-color: none;
+		box-shadow: none;
+		border: none;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) {
+		background: #000000;
+		border-color: transparent;
+		color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		line-height: 14px;
+		margin-top: 10px;
+		width: 0%;
+		justify-content: center;
+		font-size: 18px;
+		padding: 2% 14%;
+	}
+	.page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p:nth-of-type(5) input.wpcf7-form-control.has-spinner.wpcf7-submit {
+		font-size: 18px;
+		line-height: 14px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		background: transparent;
+		color: #FFFFFF;
+	}
+	.page-template-page-contact .site-main .second-section .address-map {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.page-template-page-contact .site-main .second-section .address-map .address-holder {
+		width: 40%;
+		height: 10%;
+		background-color: #FF2546;
+	}
+	.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content {
+		width: 61%;
+		display: flex;
+		flex-direction: column;
+		padding: 20%;
+	}
+	.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content h1 {
+		color: #FFFFFF;
+		display: flex;
+		line-height: 96.8%;
+		font-style: normal;
+		font-weight: 700;
+	}
+	.page-template-page-contact .site-main .second-section .address-map .address-holder .address-content p {
+		color: #FFFFFF;
+		font-style: normal;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.page-template-page-contact .site-main .second-section .address-map .map {
+		width: 60%;
+	}
 }
 
 /*# sourceMappingURL=style.css.map */
