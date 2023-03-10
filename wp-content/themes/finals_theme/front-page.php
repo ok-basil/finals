@@ -75,6 +75,11 @@
                 </div>
             </div>
         </div>
+        <div class="site-wrapper">
+            <span>
+                <img src="<?php echo get_template_directory_uri() ?> /assets/icons/frontpage-thunder.png" alt="frontpage-thunder">
+            </span>
+        </div>
     </section>
 </main>
 

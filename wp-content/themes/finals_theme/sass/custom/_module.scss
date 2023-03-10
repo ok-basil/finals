@@ -298,6 +298,16 @@
             }
         }
     }
+    .site-wrapper {
+        span {
+            display: none;
+            img {
+                position: absolute;
+                margin-top: 286px;
+                margin-left: 28px;
+            }
+        }
+    }
 
     @include respond(sm) {
         width: 100%;
@@ -465,7 +475,15 @@
                 }
             }
         }
-
+        .site-wrapper {
+            span {
+                img {
+                    position: absolute;
+                    margin-top: 286px;
+                    margin-left: 28px;
+                }
+            }
+        }
     }
 }
 
@@ -1178,7 +1196,6 @@
 }
 
 
-
 //CONTACT PAGE STYLES
 .page-template-page-contact {
     .site-main {
@@ -1204,6 +1221,13 @@
                 }
             }
 
+            .site-wrapper {
+                display: none;
+                position: absolute;
+                margin-top: -140px;
+                margin-left: 1000px;
+            }
+
             @include respond(sm) {
                 width: 100%;
                 margin-top: 10%;
@@ -1226,6 +1250,11 @@
                     }
                 }
 
+                .site-wrapper {
+                    position: absolute;
+                    margin-top: -140px;
+                    margin-left: 1000px;
+                }
             }
         }
 
@@ -1373,6 +1402,17 @@
                 }
             }
 
+            .site-wrapper {
+                span {
+                    display: none;
+                    img {
+                        position: absolute;
+                        margin-top: 80px;
+                        margin-left: 40px;
+                    }
+                }
+            }
+
             @include respond(sm) {
                 width: 100%;
 
@@ -1507,6 +1547,16 @@
     
                     .map {
                         width: 60%;
+                    }
+                }
+                
+                .site-wrapper {
+                    span {
+                        img {
+                            position: absolute;
+                            margin-top: 80px;
+                            margin-left: 40px;
+                        }
                     }
                 }
             }    
