@@ -50,7 +50,7 @@ $post_id = get_the_ID();
             <p><div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=120%20vyse%20street%20Birmingham,%20United%20Kingdom%20+(Studio%2014)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div></p>
         </div>
     </div>
-    <div class="site-wrapper">
+    <div class="blue-thunder">
         <span>
             <img src="<?php echo get_template_directory_uri() ?> /assets/icons/frontpage-thunder.png" alt="frontpage-thunder">
         </span>

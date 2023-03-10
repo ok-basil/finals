@@ -75,8 +75,8 @@
                 </div>
             </div>
         </div>
-        <div class="site-wrapper">
-            <span>
+        <div class="blue-thunder">
+            <span class="span">
                 <img src="<?php echo get_template_directory_uri() ?> /assets/icons/frontpage-thunder.png" alt="frontpage-thunder">
             </span>
         </div>
