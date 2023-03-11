@@ -61,10 +61,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="site-wrapper">
-			<div class="footer-holder" id="footer-holder">
 				<div class="second-footer" id="second-footer">
 					<div class="copyright-half" id="copyright-half">
 						<h6>© 2019 Studio 14 ltd - All rights reserved.</h6>
@@ -78,7 +74,6 @@
 				</div>
 			</div>
 		</div>
-	
 	</footer>
 </div><!-- #page -->
 

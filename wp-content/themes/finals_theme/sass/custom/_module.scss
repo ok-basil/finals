@@ -298,6 +298,7 @@
             }
         }
     }
+    
     .blue-thunder {
         span {
             display: none;
@@ -634,27 +635,12 @@
                     }
                 }
             }
-        }
-    }
-
-    .site-wrapper {
-        width: 83%;
-        padding: 0 0px;
-        margin: auto;
-
-        .footer-holder {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            justify-content: space-between;
-            padding-top: 0px;
     
             .second-footer {
                 display: flex;
                 width: 100%;
                 justify-content: space-between;
                 margin-top: 10%;
-                border-top: 1px solid $secondary-color;
     
                 .copyright-half {
                     display: flex;
@@ -823,20 +809,6 @@
                         }
                     }
                 }
-            }
-        }
-
-        .site-wrapper {
-            width: 79%;
-            padding: 0 0px;
-            margin: auto;
-
-            .footer-holder {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                justify-content: space-between;
-                padding-top: 0px;
 
                 .second-footer {
                     display: flex;
@@ -868,7 +840,6 @@
                     }
                 }
             }
-
         }
     }
 }
@@ -1228,7 +1199,6 @@
         }
     }
 }
-
 
 //CONTACT PAGE STYLES
 .page-template-page-contact {

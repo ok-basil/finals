@@ -14,7 +14,7 @@ $post_id = get_the_ID();
             <p><?php the_field('subtitle', $post_id); ?></p>
         </div>
     </div>
-    <div class="site-wrapper">
+    <div class="yellow-thunder">
         <span>
             <img src="<?php echo get_template_directory_uri() ?> /assets/icons/yellow-thunder.png" alt="frontpage-thunder">
         </span>
