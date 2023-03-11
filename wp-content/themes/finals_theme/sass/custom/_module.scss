@@ -755,6 +755,7 @@
         
                     .second-half {
                         display: flex;
+                        flex-direction: row;
                         width: 42%;
         
                         .contact-details {
@@ -840,6 +841,7 @@
                     
                     .copyright-half {
                         display: flex;
+                        flex-direction: row;
                         justify-content: flex-start;
 
                         h6 {
@@ -850,6 +852,7 @@
                     .privacy-half {
                         span {
                             display: flex;
+                            flex-direction: row;
                             justify-content: flex-end;
                             gap: 10px;
 

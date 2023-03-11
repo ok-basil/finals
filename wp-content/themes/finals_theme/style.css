@@ -856,6 +856,7 @@ button {
   }
   .footer-section .site-wrapper .footer-holder .first-footer .second-half {
     display: flex;
+    flex-direction: row;
     width: 42%;
   }
   .footer-section .site-wrapper .footer-holder .first-footer .second-half .contact-details {
@@ -923,6 +924,7 @@ button {
   }
   .footer-section .second-footer .site-wrapper .new-div .copyright-half {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
   }
   .footer-section .second-footer .site-wrapper .new-div .copyright-half h6 {
@@ -930,6 +932,7 @@ button {
   }
   .footer-section .second-footer .site-wrapper .new-div .privacy-half span {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
   }
