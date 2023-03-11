@@ -1044,7 +1044,7 @@ button {
     height: 100%;
     display: flex;
     align-items: center;
-    padding-top: 15%;
+    padding-top: 10%;
     margin-left: 5%;
   }
   .single-post .site-main .blog-post-header .site-wrapper .the-title h1 {
@@ -1137,6 +1137,7 @@ button {
   }
   .single-post .site-main .send-message .site-wrapper .message span {
     padding-top: 25px;
+    margin-right: 6%;
   }
   .single-post .site-main .send-message .site-wrapper .message span button {
     background-color: #000000;
@@ -1145,6 +1146,8 @@ button {
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 140%;
+    justify-content: center;
   }
   .single-post .site-main .send-message .site-wrapper .message span button p {
     font-size: 18px;
