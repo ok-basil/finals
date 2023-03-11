@@ -1011,12 +1011,12 @@ button {
     z-index: 2;
     width: 100%;
   }
-  .single-post .site-header .site-header {
+  .single-post .site-header .site-wrapper {
     width: 79%;
     padding: 0 0px;
     margin: auto;
   }
-  .single-post .site-header .site-header .navbar-list .menu-list a {
+  .single-post .site-header .site-wrapper .navbar-list .menu-list a {
     color: #FFFFFF !important;
   }
   .single-post .site-main .blog-post-header {
@@ -1026,22 +1026,22 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .single-post .site-main .blog-post-header .site-header {
+  .single-post .site-main .blog-post-header .site-wrapper {
     width: 79%;
     padding: 0 0px;
     margin: auto;
   }
-  .single-post .site-main .blog-post-header .site-header .the-title {
+  .single-post .site-main .blog-post-header .site-wrapper .the-title {
     position: relative;
     vertical-align: bottom;
     width: 70%;
     height: 100%;
     display: flex;
     align-items: center;
-    padding-top: 10%;
-    margin-left: 10%;
+    padding-top: 15%;
+    margin-left: 5%;
   }
-  .single-post .site-main .blog-post-header .site-header .the-title h1 {
+  .single-post .site-main .blog-post-header .site-wrapper .the-title h1 {
     color: #FFFFFF;
     font-size: 72px;
     font-weight: 300;
@@ -1400,7 +1400,7 @@ button {
     position: relative;
     height: auto;
     right: 50px;
-    bottom: 50px;
+    bottom: 150px;
   }
   .page-template-page-contact .site-main .second-section .address-map {
     width: 100%;
