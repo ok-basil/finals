@@ -1309,6 +1309,12 @@ button {
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.page-template-page-contact .site-main .second-section .address-map .address-holder .site-wrapper .address-content p:first-of-type {
+  margin-left: 0px;
+  margin-bottom: 32px;
 }
 .page-template-page-contact .site-main .second-section .address-map .address-holder .lighting {
   display: none;
@@ -1319,6 +1325,7 @@ button {
 @media only screen and (min-width: 40em) {
   .page-template-page-contact .site-main .second-section {
     width: 100%;
+    padding-bottom: 7%;
   }
   .page-template-page-contact .site-main .second-section .yellow-container {
     position: absolute;
@@ -1433,6 +1440,12 @@ button {
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .page-template-page-contact .site-main .second-section .address-map .address-holder .address-content p:first-of-type {
+    margin-left: 0px;
+    margin-bottom: 32px;
   }
   .page-template-page-contact .site-main .second-section .address-map .address-holder .lighting {
     display: flex;
