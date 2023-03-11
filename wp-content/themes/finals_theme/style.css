@@ -149,6 +149,9 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+.nav-menu .menu-container .main-navigation ul > li.current-menu-item a {
+  color: #BDBDBD;
+}
 .nav-menu .navbar {
   width: 30%;
 }

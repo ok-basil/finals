@@ -8,6 +8,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .main-navigation ul > li.current-menu-item a{
+            color: #BDBDBD;
+        }
     }
 
     .navbar {
