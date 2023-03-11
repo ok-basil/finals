@@ -151,24 +151,6 @@ button {
 }
 .nav-menu .navbar {
   width: 30%;
-  /*
-  @if $breakpoint ==xl {
-
-  	@media only screen and (miin-width: 80em) {
-  		@content;
-  	}
-
-  	//1280px
-  }
-
-  @if $breakpoint ==2xl {
-  	@media only screen and (max-width: 96em) {
-  		@content;
-  	}
-
-  	//1536px
-  }
-  */
 }
 @media only screen and (min-width: 40em) {
   .nav-menu .navbar .menu-toggle {
@@ -197,24 +179,6 @@ button {
 
 .first-section {
   width: 100%;
-  /*
-  @if $breakpoint ==xl {
-
-  	@media only screen and (miin-width: 80em) {
-  		@content;
-  	}
-
-  	//1280px
-  }
-
-  @if $breakpoint ==2xl {
-  	@media only screen and (max-width: 96em) {
-  		@content;
-  	}
-
-  	//1536px
-  }
-  */
 }
 .first-section .site-wrapper {
   padding: 0 0px;
@@ -292,24 +256,6 @@ button {
   width: 100%;
   margin-top: 7%;
   padding-bottom: 10%;
-  /*
-  @if $breakpoint ==xl {
-
-  	@media only screen and (miin-width: 80em) {
-  		@content;
-  	}
-
-  	//1280px
-  }
-
-  @if $breakpoint ==2xl {
-  	@media only screen and (max-width: 96em) {
-  		@content;
-  	}
-
-  	//1536px
-  }
-  */
 }
 .second-section .site-wrapper {
   width: 83%;
@@ -612,24 +558,6 @@ button {
   width: 100%;
   height: 100%;
   margin-top: 0%;
-  /*
-  @if $breakpoint ==xl {
-
-  	@media only screen and (miin-width: 80em) {
-  		@content;
-  	}
-
-  	//1280px
-  }
-
-  @if $breakpoint ==2xl {
-  	@media only screen and (max-width: 96em) {
-  		@content;
-  	}
-
-  	//1536px
-  }
-  */
 }
 .footer-section .site-wrapper {
   width: 83%;
@@ -941,26 +869,6 @@ button {
   }
 }
 
-.single-post {
-  /*
-  @if $breakpoint ==xl {
-
-  	@media only screen and (miin-width: 80em) {
-  		@content;
-  	}
-
-  	//1280px
-  }
-
-  @if $breakpoint ==2xl {
-  	@media only screen and (max-width: 96em) {
-  		@content;
-  	}
-
-  	//1536px
-  }
-  */
-}
 .single-post .site-header {
   margin-top: 35px;
   position: absolute;
@@ -1242,24 +1150,6 @@ button {
 .page-template-page-contact .site-main .first-section {
   width: 100%;
   margin-top: 10%;
-  /*
-  @if $breakpoint ==xl {
-
-  	@media only screen and (miin-width: 80em) {
-  		@content;
-  	}
-
-  	//1280px
-  }
-
-  @if $breakpoint ==2xl {
-  	@media only screen and (max-width: 96em) {
-  		@content;
-  	}
-
-  	//1536px
-  }
-  */
 }
 .page-template-page-contact .site-main .first-section .site-wrapper {
   width: 83%;
@@ -1299,24 +1189,6 @@ button {
 }
 .page-template-page-contact .site-main .second-section {
   width: 100%;
-  /*
-  @if $breakpoint ==xl {
-
-  	@media only screen and (miin-width: 80em) {
-  		@content;
-  	}
-
-  	//1280px
-  }
-
-  @if $breakpoint ==2xl {
-  	@media only screen and (max-width: 96em) {
-  		@content;
-  	}
-
-  	//1536px
-  }
-  */
 }
 .page-template-page-contact .site-main .second-section .yellow-container {
   position: absolute;
