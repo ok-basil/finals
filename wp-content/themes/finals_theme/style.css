@@ -485,12 +485,12 @@ button {
        object-fit: contain;
   }
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style:first-of-type {
-    width: 64.8%;
+    width: 65.8%;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 12px;
+    margin-right: 0px;
   }
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style:first-of-type .first img {
     width: 100%;
