@@ -61,7 +61,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="second-footer" id="second-footer">
+			</div>
+		</div>
+		<div class="second-footer" id="second-footer">
+			<div class="site-wrapper">
+				<div class="new-div">
 					<div class="copyright-half" id="copyright-half">
 						<h6>© 2019 Studio 14 ltd - All rights reserved.</h6>
 					</div>
@@ -74,7 +78,7 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer>	
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

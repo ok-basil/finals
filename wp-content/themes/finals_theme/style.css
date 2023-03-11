@@ -449,10 +449,8 @@ button {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.second-section .blue-thunder span {
+.second-section .site-wrapper .container .blog-posts-wrapper .lighting {
   display: none;
-}
-.second-section .blue-thunder span img {
   position: absolute;
   margin-top: 286px;
   margin-left: 28px;
@@ -601,15 +599,11 @@ button {
     -o-object-fit: contain;
        object-fit: contain;
   }
-  .second-section .blue-thunder {
-    width: 79%;
-    padding: 0 0px;
-    margin: auto;
-  }
-  .second-section .blue-thunder .span img {
+  .second-section .site-wrapper .container .blog-posts-wrapper .lighting {
     position: absolute;
-    margin-top: 286px;
-    margin-left: 28px;
+    display: flex;
+    margin-top: 120%;
+    margin-left: 45px;
   }
 }
 
@@ -752,26 +746,37 @@ button {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.footer-section .site-wrapper .footer-holder .second-footer {
+.footer-section .second-footer {
   display: flex;
   width: 100%;
   justify-content: space-between;
   margin-top: 10%;
+  border-top: 1px solid #FFFFFF;
 }
-.footer-section .site-wrapper .footer-holder .second-footer .copyright-half {
+.footer-section .second-footer .site-wrapper {
+  width: 83%;
+  margin: auto;
+  padding: 0 0px;
+}
+.footer-section .second-footer .site-wrapper .new-div {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
-.footer-section .site-wrapper .footer-holder .second-footer .copyright-half h6 {
+.footer-section .second-footer .site-wrapper .new-div .copyright-half {
+  display: flex;
+  justify-content: center;
+}
+.footer-section .second-footer .site-wrapper .new-div .copyright-half h6 {
   color: #828282;
 }
-.footer-section .site-wrapper .footer-holder .second-footer .privacy-half span {
+.footer-section .second-footer .site-wrapper .new-div .privacy-half span {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 10px;
 }
-.footer-section .site-wrapper .footer-holder .second-footer .privacy-half span h6 {
-  text-decoration: underline;
+.footer-section .second-footer .site-wrapper .new-div .privacy-half span h6 {
   color: #828282;
 }
 @media only screen and (min-width: 40em) {
@@ -896,27 +901,36 @@ button {
     -o-object-fit: contain;
        object-fit: contain;
   }
-  .footer-section .site-wrapper .footer-holder .second-footer {
+  .footer-section .second-footer {
     display: flex;
     width: 100%;
     justify-content: space-between;
     margin-top: 10%;
     border-top: 1px solid #FFFFFF;
   }
-  .footer-section .site-wrapper .footer-holder .second-footer .copyright-half {
+  .footer-section .second-footer .site-wrapper {
+    width: 79%;
+    margin: auto;
+    padding: 0 0px;
+  }
+  .footer-section .second-footer .site-wrapper .new-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-section .second-footer .site-wrapper .new-div .copyright-half {
     display: flex;
     justify-content: flex-start;
   }
-  .footer-section .site-wrapper .footer-holder .second-footer .copyright-half h6 {
+  .footer-section .second-footer .site-wrapper .new-div .copyright-half h6 {
     color: #828282;
   }
-  .footer-section .site-wrapper .footer-holder .second-footer .privacy-half span {
+  .footer-section .second-footer .site-wrapper .new-div .privacy-half span {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
   }
-  .footer-section .site-wrapper .footer-holder .second-footer .privacy-half span h6 {
-    text-decoration: underline;
+  .footer-section .second-footer .site-wrapper .new-div .privacy-half span h6 {
     color: #828282;
   }
 }
@@ -1256,12 +1270,6 @@ button {
   line-height: 26px;
   font-weight: 400;
 }
-.page-template-page-contact .site-main .first-section .yellow-thunder {
-  display: none;
-  position: absolute;
-  margin-top: -140px;
-  margin-left: 1000px;
-}
 @media only screen and (min-width: 40em) {
   .page-template-page-contact .site-main .first-section {
     width: 100%;
@@ -1281,11 +1289,6 @@ button {
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-  }
-  .page-template-page-contact .site-main .first-section .yellow-thunder {
-    position: absolute;
-    margin-top: -140px;
-    margin-left: 1000px;
   }
 }
 .page-template-page-contact .site-main .second-section {
@@ -1351,7 +1354,7 @@ button {
   font-size: 18px !important;
 }
 .page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form .wpcf7.no-js p label span.wpcf7-form-control-wrap input {
-  width: 100%;
+  width: 90%;
   background: transparent;
   border: none;
   outline: none;
@@ -1388,6 +1391,10 @@ button {
   color: #FFFFFF;
   border: none;
 }
+.page-template-page-contact .site-main .second-section .site-wrapper .container .lighting {
+  position: absolute;
+  right: 0;
+}
 .page-template-page-contact .site-main .second-section .address-map {
   width: 100%;
   display: flex;
@@ -1422,16 +1429,11 @@ button {
   font-size: 16px;
   font-weight: 400;
 }
-.page-template-page-contact .site-main .second-section .address-map .map {
-  width: 100%;
-}
-.page-template-page-contact .site-main .second-section .blue-thunder span {
+.page-template-page-contact .site-main .second-section .address-map .address-holder .lighting {
   display: none;
 }
-.page-template-page-contact .site-main .second-section .blue-thunder span img {
-  position: absolute;
-  margin-top: 80px;
-  margin-left: 40px;
+.page-template-page-contact .site-main .second-section .address-map .map {
+  width: 100%;
 }
 @media only screen and (min-width: 40em) {
   .page-template-page-contact .site-main .second-section {
@@ -1441,7 +1443,7 @@ button {
     position: absolute;
     background-color: #FFCF25;
     width: 62%;
-    height: 98%;
+    height: 642px;
   }
   .page-template-page-contact .site-main .second-section .site-wrapper {
     width: 79%;
@@ -1467,6 +1469,7 @@ button {
   }
   .page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form {
     width: 52%;
+    margin-left: 16%;
   }
   .page-template-page-contact .site-main .second-section .site-wrapper .container .contact-form .form {
     margin-top: 32%;
@@ -1515,6 +1518,12 @@ button {
     background: transparent;
     color: #FFFFFF;
   }
+  .page-template-page-contact .site-main .second-section .site-wrapper .container .lighting {
+    position: relative;
+    height: auto;
+    right: 50px;
+    bottom: 50px;
+  }
   .page-template-page-contact .site-main .second-section .address-map {
     width: 100%;
     display: flex;
@@ -1544,12 +1553,13 @@ button {
     font-size: 16px;
     font-weight: 400;
   }
+  .page-template-page-contact .site-main .second-section .address-map .address-holder .lighting {
+    display: flex;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 14%;
+  }
   .page-template-page-contact .site-main .second-section .address-map .map {
     width: 60%;
-  }
-  .page-template-page-contact .site-main .second-section .blue-thunder span img {
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

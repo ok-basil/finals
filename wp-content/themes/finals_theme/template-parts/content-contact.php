@@ -14,11 +14,6 @@ $post_id = get_the_ID();
             <p><?php the_field('subtitle', $post_id); ?></p>
         </div>
     </div>
-    <div class="yellow-thunder">
-        <span>
-            <img src="<?php echo get_template_directory_uri() ?> /assets/icons/yellow-thunder.png" alt="frontpage-thunder">
-        </span>
-    </div>
 </section>
 
 <section class="second-section" id="second-section">
@@ -33,6 +28,9 @@ $post_id = get_the_ID();
                     <?php the_field('contact_form', $post_id); ?>
                 </form>
             </div>
+            <span class="lighting">
+                <img src="<?php echo get_template_directory_uri() ?> /assets/icons/yellow-thunder.png" alt="yellow-thunder">
+            </span>
         </div>
     </div>
     <div class="address-map" id="address-map">
@@ -45,14 +43,13 @@ $post_id = get_the_ID();
                     <p>Tel:<?php the_field('phone_number', $post_id); ?></p>
                 </div>
             </div>
+            <span class="lighting">
+                <img src="<?php echo get_template_directory_uri() ?> /assets/icons/frontpage-thunder.png" alt="frontpage-thunder">
+            </span>
         </div>
         <div class="map" id="map">
             <p><div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=120%20vyse%20street%20Birmingham,%20United%20Kingdom%20+(Studio%2014)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div></p>
         </div>
     </div>
-    <div class="blue-thunder">
-        <span>
-            <img src="<?php echo get_template_directory_uri() ?> /assets/icons/frontpage-thunder.png" alt="frontpage-thunder">
-        </span>
-    </div>
+    
 </section>

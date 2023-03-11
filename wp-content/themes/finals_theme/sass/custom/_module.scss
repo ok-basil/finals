@@ -295,17 +295,13 @@
                         }
                     }
                 }
-            }
-        }
-    }
-    
-    .blue-thunder {
-        span {
-            display: none;
-            img {
-                position: absolute;
-                margin-top: 286px;
-                margin-left: 28px;
+
+                .lighting {
+                    display: none;
+                    position: absolute;
+                    margin-top: 286px;
+                    margin-left: 28px;
+                }
             }
         }
     }
@@ -473,22 +469,17 @@
                             }
                         }
                     }
-                }
-            }
-        }
-        .blue-thunder {
-            width: 79%;
-            padding: 0 0px;
-            margin: auto;
 
-            .span {
-                img {
-                    position: absolute;
-                    margin-top: 286px;
-                    margin-left: 28px;
+                    .lighting {
+                        position: absolute;
+                        display: flex;
+                        margin-top: 120%;
+                        margin-left: 45px;
+                    }
                 }
             }
         }
+
     }
 }
 
@@ -635,30 +626,43 @@
                     }
                 }
             }
-    
-            .second-footer {
+        }
+    }
+
+    .second-footer {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10%;
+        border-top: 1px solid $secondary-color;
+
+        .site-wrapper {
+            width: 83%;
+            margin: auto;
+            padding: 0 0px;
+
+            .new-div {
                 display: flex;
-                width: 100%;
+                flex-direction: column;
                 justify-content: space-between;
-                margin-top: 10%;
-    
+                width: 100%;
+                
                 .copyright-half {
                     display: flex;
-                    justify-content: flex-start;
-    
+                    justify-content: center;
+
                     h6 {
                         color: #828282;
                     }
                 }
-    
+
                 .privacy-half {
                     span {
                         display: flex;
-                        justify-content: flex-end;
+                        justify-content: center;
                         gap: 10px;
-    
+
                         h6 {
-                            text-decoration: underline;
                             color: #828282;
                         }
                     }
@@ -810,30 +814,43 @@
                     }
                 }
 
-                .second-footer {
+
+            }
+        }
+
+        .second-footer {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 10%;
+            border-top: 1px solid $secondary-color;
+
+            .site-wrapper {
+                width: 79%;
+                margin: auto;
+                padding: 0 0px;
+
+                .new-div {
                     display: flex;
-                    width: 100%;
+                    flex-direction: row;
                     justify-content: space-between;
-                    margin-top: 10%;
-                    border-top: 1px solid $secondary-color;
-        
+                    
                     .copyright-half {
                         display: flex;
                         justify-content: flex-start;
-        
+
                         h6 {
                             color: #828282;
                         }
                     }
-        
+
                     .privacy-half {
                         span {
                             display: flex;
                             justify-content: flex-end;
                             gap: 10px;
-        
+
                             h6 {
-                                text-decoration: underline;
                                 color: #828282;
                             }
                         }
@@ -1225,13 +1242,6 @@
                 }
             }
 
-            .yellow-thunder {
-                display: none;
-                position: absolute;
-                margin-top: -140px;
-                margin-left: 1000px;
-            }
-
             @include respond(sm) {
                 width: 100%;
                 margin-top: 10%;
@@ -1252,12 +1262,6 @@
                             font-weight: 400;
                         }
                     }
-                }
-
-                .yellow-thunder {
-                    position: absolute;
-                    margin-top: -140px;
-                    margin-left: 1000px;
                 }
             }
         }
@@ -1314,7 +1318,7 @@
                                         span.wpcf7-form-control-wrap {
     
                                             input {
-                                                width: 100%;
+                                                width: 90%;
                                                 background: transparent;
                                                 border: none;
                                                 outline: none;
@@ -1359,6 +1363,11 @@
                             }
                         }
                     }
+
+                    .lighting {
+                        position: absolute;
+                        right: 0;
+                    }
                 }
             }
 
@@ -1399,21 +1408,14 @@
                             }
                         }
                     }
+
+                    .lighting {
+                        display: none;
+                    }
                 }
 
                 .map {
                     width: 100%;
-                }
-            }
-
-            .blue-thunder {
-                span {
-                    display: none;
-                    img {
-                        position: absolute;
-                        margin-top: 80px;
-                        margin-left: 40px;
-                    }
                 }
             }
 
@@ -1424,7 +1426,7 @@
                     position: absolute;
                     background-color: #FFCF25;
                     width: 62%;
-                    height: 98%;
+                    height: 642px;
                 }
                 
                 .site-wrapper {
@@ -1453,6 +1455,7 @@
             
                         .contact-form {
                             width: 52%;
+                            margin-left: 16%;
             
                             .form {
                                 margin-top: 32%;
@@ -1513,6 +1516,13 @@
                                 }
                             }
                         }
+
+                        .lighting {
+                            position: relative;
+                            height: auto;
+                            right: 50px;
+                            bottom: 50px;
+                        }
                     }
                 }
     
@@ -1547,20 +1557,17 @@
                                 font-weight: 400;
                             }
                         }
+
+                        .lighting {
+                            display: flex;
+                            position: absolute;
+                            margin-top: 15%;
+                            margin-left: 14%;
+                        }
                     }
     
                     .map {
                         width: 60%;
-                    }
-                }
-                
-                .blue-thunder {
-                    span {
-                        img {
-                            position: absolute;
-                            margin-top: 80px;
-                            margin-left: 40px;
-                        }
                     }
                 }
             }    

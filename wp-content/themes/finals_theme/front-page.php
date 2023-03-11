@@ -72,13 +72,11 @@
                             </div>
                         <?php }
                     } ?>
+                    <span class="lighting">
+                        <img src="<?php echo get_template_directory_uri() ?> /assets/icons/frontpage-thunder.png" alt="frontpage-thunder">
+                    </span>
                 </div>
             </div>
-        </div>
-        <div class="blue-thunder">
-            <span class="span">
-                <img src="<?php echo get_template_directory_uri() ?> /assets/icons/frontpage-thunder.png" alt="frontpage-thunder">
-            </span>
         </div>
     </section>
 </main>
