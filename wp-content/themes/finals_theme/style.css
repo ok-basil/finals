@@ -698,6 +698,7 @@ button {
 }
 .footer-section .site-wrapper .footer-holder .first-footer .second-half {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 .footer-section .site-wrapper .footer-holder .first-footer .second-half .contact-details {
@@ -773,6 +774,8 @@ button {
 }
 .footer-section .second-footer .site-wrapper .new-div .privacy-half span {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 10px;
 }

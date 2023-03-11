@@ -565,6 +565,7 @@
     
                 .second-half {
                     display: flex;
+                    flex-direction: column;
                     width: 100%;
     
                     .contact-details {
@@ -659,6 +660,8 @@
                 .privacy-half {
                     span {
                         display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         justify-content: center;
                         gap: 10px;
 
