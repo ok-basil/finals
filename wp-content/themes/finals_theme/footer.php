@@ -26,6 +26,7 @@
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+	
 	<footer class="footer-section" id="footer-section">
 		<div class="site-wrapper">
 			<div class="footer-holder" id="footer-holder">
