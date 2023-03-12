@@ -34,57 +34,57 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 @font-face {
   font-family: "Brown";
-  src: url("/fonts/Brown-Bold.woff2") format("woff2"), url("/fonts/Brown-Bold.woff") format("woff");
+  src: url("./fonts/Brown-Light.woff2") format("woff2"), url("./fonts/Brown-Light.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brown";
+  src: url("./fonts/Brown-Regular.woff2") format("woff2"), url("./fonts/Brown-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brown";
+  src: url("./fonts/Brown-Light.woff2") format("woff2"), url("./fonts/Brown-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brown";
+  src: url("./fonts/Brown-Thin.woff2") format("woff2"), url("./fonts/Brown-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brown";
+  src: url("./fonts/Brown-Bold.woff2") format("woff2"), url("./fonts/Brown-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brown";
+  src: url("./fonts/Brown-Regular.woff2") format("woff2"), url("./fonts/Brown-Regular.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brown";
+  src: url("./fonts/Brown-Thin.woff2") format("woff2"), url("./fonts/Brown-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brown";
+  src: url("./fonts/Brown-Bold.woff2") format("woff2"), url("./fonts/Brown-Bold.woff") format("woff");
   font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brown";
-  src: url("/fonts/Brown-Light.woff2") format("woff2"), url("/fonts/Brown-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brown";
-  src: url("/fonts/Brown-Bold.woff2") format("woff2"), url("/fonts/Brown-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brown";
-  src: url("/fonts/Brown-Light.woff2") format("woff2"), url("/fonts/Brown-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brown";
-  src: url("/fonts/Brown-Regular.woff2") format("woff2"), url("/fonts/Brown-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brown";
-  src: url("/fonts/Brown-Regular.woff2") format("woff2"), url("/fonts/Brown-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brown";
-  src: url("/fonts/Brown-Thin.woff2") format("woff2"), url("/fonts/Brown-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brown";
-  src: url("/fonts/Brown-Thin.woff2") format("woff2"), url("/fonts/Brown-Thin.woff") format("woff");
-  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -173,7 +173,7 @@ button {
   display: flex;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
 }
 .nav-menu .navbar .navbar-list .menu-list li a {
   color: #333333;
@@ -474,7 +474,7 @@ button {
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style .second span span {
     display: flex;
     align-items: center;
-    width: 48%;
+    width: 52%;
   }
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style .second span span p {
     font-style: normal;
@@ -505,7 +505,7 @@ button {
     padding: 30px;
   }
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style:first-of-type .second h2 {
-    width: 56%;
+    width: 57%;
     font-weight: 700;
     font-style: normal;
     line-height: 29px;
@@ -518,6 +518,7 @@ button {
     font-weight: 400;
     line-height: 25px;
     color: #000000;
+    padding-top: 2%;
   }
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style:first-of-type .second span {
     display: flex;
@@ -535,7 +536,7 @@ button {
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style:first-of-type .second span span {
     display: flex;
     align-items: center;
-    width: 19%;
+    width: 20%;
   }
   .second-section .site-wrapper .container .blog-posts-wrapper .post-style:first-of-type .second span span p {
     font-style: normal;
@@ -554,7 +555,7 @@ button {
   .second-section .site-wrapper .container .blog-posts-wrapper .lighting {
     position: absolute;
     display: flex;
-    margin-top: 120%;
+    margin-top: 125%;
     margin-left: 45px;
   }
 }
@@ -1093,7 +1094,7 @@ button {
   .single-post .site-main .content .site-wrapper .mid-section .top-half span p {
     font-size: 18px;
     font-weight: 700;
-    width: 21%;
+    width: 22%;
   }
   .single-post .site-main .content .site-wrapper .mid-section .lower-half {
     width: 100%;
@@ -1456,7 +1457,7 @@ button {
   .page-template-page-contact .site-main .second-section .address-map .address-holder .lighting {
     display: flex;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 11%;
     margin-left: 14%;
   }
   .page-template-page-contact .site-main .second-section .address-map .map {

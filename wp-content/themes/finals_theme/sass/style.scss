@@ -39,75 +39,87 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Bold.woff2') format('woff2'),
-        url('/fonts/Brown-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+
+	src:
+		url("./fonts/Brown-Light.woff2") format("woff2"),
+		url("./fonts/Brown-Light.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Light.woff2') format('woff2'),
-        url('/fonts/Brown-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+
+	src:
+		url("./fonts/Brown-Regular.woff2") format("woff2"),
+		url("./fonts/Brown-Regular.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Bold.woff2') format('woff2'),
-        url('/fonts/Brown-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+
+	src:
+		url("./fonts/Brown-Light.woff2") format("woff2"),
+		url("./fonts/Brown-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Light.woff2') format('woff2'),
-        url('/fonts/Brown-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+
+	src:
+		url("./fonts/Brown-Thin.woff2") format("woff2"),
+		url("./fonts/Brown-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Regular.woff2') format('woff2'),
-        url('/fonts/Brown-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+	src:
+		url("./fonts/Brown-Bold.woff2") format("woff2"),
+		url("./fonts/Brown-Bold.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Regular.woff2') format('woff2'),
-        url('/fonts/Brown-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+	src:
+		url("./fonts/Brown-Regular.woff2") format("woff2"),
+		url("./fonts/Brown-Regular.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Thin.woff2') format('woff2'),
-        url('/fonts/Brown-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+	src:
+		url("./fonts/Brown-Thin.woff2") format("woff2"),
+		url("./fonts/Brown-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brown';
-    src: url('/fonts/Brown-Thin.woff2') format('woff2'),
-        url('/fonts/Brown-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Brown";
+	src:
+		url("./fonts/Brown-Bold.woff2") format("woff2"),
+		url("./fonts/Brown-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
 

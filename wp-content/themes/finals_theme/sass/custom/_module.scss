@@ -36,7 +36,7 @@
                     display: flex;
                     font-style: normal;
                     font-weight: 700;
-                    font-size: calc($secondary-size + 2px);
+                    font-size: $secondary-size;
                     
                     a {
                         color: #333333;
@@ -385,7 +385,7 @@
                                 span {
                                     display: flex;
                                     align-items: center;
-                                    width: 48%;
+                                    width: 52%;
             
                                     p{
                                         font-style: normal;
@@ -423,7 +423,7 @@
                                 padding: 30px;
                 
                                 h2 {
-                                    width: 56%;
+                                    width: 57%;
                                     font-weight: 700;
                                     font-style: normal;
                                     line-height: 29px;
@@ -437,6 +437,7 @@
                                     font-weight: 400;
                                     line-height: 25px;
                                     color: $primary-color;
+                                    padding-top: 2%;
                                 }
                 
                                 span {
@@ -456,7 +457,7 @@
                                     span {
                                         display: flex;
                                         align-items: center;
-                                        width: 19%;
+                                        width: 20%;
                 
                                         p{
                                             font-style: normal;
@@ -481,7 +482,7 @@
                     .lighting {
                         position: absolute;
                         display: flex;
-                        margin-top: 120%;
+                        margin-top: 125%;
                         margin-left: 45px;
                     }
                 }
@@ -1148,7 +1149,7 @@
                                 p {
                                     font-size: 18px;
                                     font-weight: 700;
-                                    width: 21%;
+                                    width: 22%;
                                 }
                             }
                         }
@@ -1587,7 +1588,7 @@
                         .lighting {
                             display: flex;
                             position: absolute;
-                            margin-top: 15%;
+                            margin-top: 11%;
                             margin-left: 14%;
                         }
                     }
