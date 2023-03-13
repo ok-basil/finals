@@ -47,7 +47,12 @@
 								)
 							);
 						?>
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'finals_theme' ); ?></button>			
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'finals_theme' ); ?></button>
+						<div class="hamburger">
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
 					</nav><!-- #site-navigation -->
 				</div>
 			</div>
