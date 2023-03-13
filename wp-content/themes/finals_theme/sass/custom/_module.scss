@@ -3,6 +3,10 @@
 //HEADER SECTION STYLES
 .nav-menu {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    text-align: center;
 
     .site-wrapper {
         width: 83%;
@@ -13,6 +17,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 10%;
     
             .main-navigation ul > li.current-menu-item a{
                 color: #BDBDBD;
@@ -21,6 +26,31 @@
     
         .navbar {
             width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            
+            .hamburger {
+                position: absolute;
+                top: 3.75rem;
+                right: 2rem;
+                display: flex;
+                flex-direction: column;
+                width: 30px;
+                height: auto;
+                justify-content: space-between;
+                cursor: pointer;
+
+                .bar {
+                    width: 100%;
+                    height: 3px;
+                    border-radius: 10px;
+                    margin: 5px auto;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                    background-color: $primary-color;
+                }
+            }
         
             .menu-toggle {
                 display: none;
@@ -29,14 +59,18 @@
             .navbar-list {
                 display: none;
                 width: 100%;
+                position: absolute;
+                margin-top: -9%;
+                margin-left: -5%;
         
                 .menu-list {
                     display: flex;
+                    flex-direction: column;
                     justify-content: space-between;
                     width: 100%;
         
                     li {
-                        display: flex;
+                        text-align: center;
                         font-style: normal;
                         font-weight: 700;
                         font-size: $secondary-size;
@@ -52,11 +86,19 @@
                     }
                 }
             }
+
+            .navbar-list.active {
+                display: flex;
+            }
         }
     }
 
     @include respond(sm) {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2%;
+        text-align: center;
 
         .site-wrapper {
             width: 79%;
@@ -67,6 +109,8 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                padding-top: 5%;
+                padding-bottom: 5%;
         
                 .main-navigation ul > li.current-menu-item a{
                     color: #BDBDBD;
@@ -74,7 +118,9 @@
             }
         
             .navbar {
-                width: 30%;
+                width: 33%;
+                display: flex;
+                flex-direction: row;
     
                 .hamburger {
                     display: none;
@@ -87,15 +133,19 @@
             
                 .navbar-list {
                     display: flex;
+                    flex-direction: row;
                     width: 100%;
+                    position: relative;
             
                     .menu-list {
                         display: flex;
+                        flex-direction: row;
                         justify-content: space-between;
                         width: 100%;
             
                         li {
                             display: flex;
+                            flex-direction: row;
                             font-style: normal;
                             font-weight: 700;
                             font-size: $secondary-size;
@@ -275,20 +325,29 @@
                                 display: flex;
                                 align-items: center;
                                 width: 50%;
-        
-                                p{
-                                    font-style: normal;
-                                    font-weight: 700;
-                                    line-height: 14px;
+
+                                a {
+                                    text-decoration: none;
+                                    gap: 5px;
                                     display: flex;
                                     align-items: center;
-                                    color: $tertiary-color;
-                                }
-        
-                                img {
-                                    width: 8.94px;
-                                    height: 14px;
-                                    object-fit: contain;
+                                    width: 106px;
+
+                                    p{
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        color: $tertiary-color;
+                                    }
+            
+                                    img {
+                                        width: 8.94px;
+                                        height: 14px;
+                                        object-fit: contain;
+                                    }
+    
                                 }
                             }
                         }
@@ -348,19 +407,28 @@
                                     width: 50%;
                                     margin-bottom: 15px;
             
-                                    p{
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        line-height: 14px;
+                                    a {
+                                        text-decoration: none;
+                                        gap: 5px;
                                         display: flex;
                                         align-items: center;
-                                        color: $tertiary-color;
-                                    }
-            
-                                    img {
-                                        width: 8.94px;
-                                        height: 14px;
-                                        object-fit: contain;
+                                        width: 106px;
+    
+                                        p{
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            line-height: 14px;
+                                            display: flex;
+                                            align-items: center;
+                                            color: $tertiary-color;
+                                        }
+                
+                                        img {
+                                            width: 8.94px;
+                                            height: 14px;
+                                            object-fit: contain;
+                                        }
+        
                                     }
                                 }
                             }
@@ -370,9 +438,6 @@
 
                 .lighting {
                     display: none;
-                    position: absolute;
-                    margin-top: 286px;
-                    margin-left: 28px;
                 }
             }
         }
@@ -399,7 +464,7 @@
                     width: 100%;
                     height: 100%;
                     flex-wrap: wrap;
-                    gap: 21px;
+                    gap: 19px;
         
                     .post-style {
                         width: 32%;
@@ -451,19 +516,28 @@
                                     align-items: center;
                                     width: 52%;
             
-                                    p{
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        line-height: 14px;
+                                    a {
+                                        text-decoration: none;
+                                        gap: 5px;
                                         display: flex;
                                         align-items: center;
-                                        color: $tertiary-color;
-                                    }
-            
-                                    img {
-                                        width: 8.94px;
-                                        height: 14px;
-                                        object-fit: contain;
+                                        width: 120px;
+    
+                                        p{
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            line-height: 14px;
+                                            display: flex;
+                                            align-items: center;
+                                            color: $tertiary-color;
+                                        }
+                
+                                        img {
+                                            width: 8.94px;
+                                            height: 14px;
+                                            object-fit: contain;
+                                        }
+        
                                     }
                                 }
                             }
@@ -522,20 +596,29 @@
                                         display: flex;
                                         align-items: center;
                                         width: 20%;
-                
-                                        p{
-                                            font-style: normal;
-                                            font-weight: 700;
-                                            line-height: 14px;
+                                        
+                                        a {
+                                            text-decoration: none;
+                                            gap: 5px;
                                             display: flex;
                                             align-items: center;
-                                            color: $tertiary-color;
-                                        }
-                
-                                        img {
-                                            width: 8.94px;
-                                            height: 14px;
-                                            object-fit: contain;
+                                            width: 120px;
+        
+                                            p{
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                line-height: 14px;
+                                                display: flex;
+                                                align-items: center;
+                                                color: $tertiary-color;
+                                            }
+                    
+                                            img {
+                                                width: 8.94px;
+                                                height: 14px;
+                                                object-fit: contain;
+                                            }
+            
                                         }
                                     }
                                 }
@@ -546,7 +629,7 @@
                     .lighting {
                         position: absolute;
                         display: flex;
-                        margin-top: 125%;
+                        margin-top: 141%;
                         margin-left: 45px;
                     }
                 }
@@ -1296,6 +1379,8 @@
 //CONTACT PAGE STYLES
 .page-template-page-contact {
     .site-main {
+        margin-top: -10%;
+
         .first-section {
             width: 100%;
             margin-top: 10%;
@@ -1546,7 +1631,7 @@
                                 display: flex;
                                 flex-direction: column;
                                 gap: 2px;
-                                margin-left: 5%;
+                                margin-left: 12%;
                                 
                                 .wpcf7.no-js {
                                     p {
@@ -1652,7 +1737,7 @@
                         .lighting {
                             display: flex;
                             position: absolute;
-                            margin-top: 11%;
+                            margin-top: 13%;
                             margin-left: 14%;
                         }
                     }
