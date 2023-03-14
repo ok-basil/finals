@@ -241,7 +241,7 @@ button {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
-		margin-top: 2%;
+		margin-top: 0%;
 		text-align: center;
 	}
 	.nav-menu .site-wrapper {
@@ -791,7 +791,8 @@ button {
 
 .footer-section .site-wrapper .footer-holder .first-footer .first-half span .contact-form .message-input {
 	width: 78%;
-	height: auto;
+	height: 32px;
+	padding-left: 10px;
 	border-color: #FFFFFF;
 	border-width: 1px;
 	background-color: #000000;
@@ -969,7 +970,8 @@ button {
 	}
 	.footer-section .site-wrapper .footer-holder .first-footer .first-half span .contact-form .message-input {
 		width: 78%;
-		height: auto;
+		height: 32px;
+		padding-left: 10px;
 		border-color: #FFFFFF;
 		border-width: 1px;
 		background-color: #000000;
@@ -1318,7 +1320,7 @@ button {
 	.single-post .site-main .content .site-wrapper .mid-section .top-half span p {
 		font-size: 18px;
 		font-weight: 700;
-		width: 22%;
+		width: 24%;
 	}
 	.single-post .site-main .content .site-wrapper .mid-section .lower-half {
 		width: 100%;

@@ -97,7 +97,7 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        margin-top: 2%;
+        margin-top: 0%;
         text-align: center;
 
         .site-wrapper {
@@ -690,7 +690,8 @@
                             
                             .message-input {
                                 width: 78%;
-                                height: auto;
+                                height: 32px;
+                                padding-left: 10px;
                                 border-color: $secondary-color;
                                 border-width: 1px;
                                 background-color: $primary-color;
@@ -880,7 +881,8 @@
                                 
                                 .message-input {
                                     width: 78%;
-                                    height: auto;
+                                    height: 32px;
+                                    padding-left: 10px;
                                     border-color: $secondary-color;
                                     border-width: 1px;
                                     background-color: $primary-color;
@@ -1296,7 +1298,7 @@
                                 p {
                                     font-size: 18px;
                                     font-weight: 700;
-                                    width: 22%;
+                                    width: 24%;
                                 }
                             }
                         }

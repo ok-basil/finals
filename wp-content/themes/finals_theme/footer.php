@@ -36,7 +36,7 @@
 						<span>
 							<p>Sign up to our mailing list to find out  more information and keep up to date about our activities</p>
 							<form class="contact-form" action="" method="post">
-								<textarea class="message-input" name="" id="message-input" placeholder="email"></textarea>
+								<input type="email" class="message-input" name="email" placeholder="email" id="">
 								<button><p>Subscribe</p></button>
 							</form>
 						</span>
