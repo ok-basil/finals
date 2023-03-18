@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -34,6 +35,29 @@
 						?>
 					</div>
 					<nav id="site-navigation" class="main-navigation navbar">
+						<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false"><?php esc_html_e( '', 'finals_theme' ); ?>
+							<div class="hamburger-container" id="click">
+								<span class="hamburger first"></span>
+								<span class="hamburger second"></span>
+								<span class="hamburger third"></span>
+							</div>
+
+							<?php
+								wp_nav_menu(
+									array(
+										'theme_location' 	=> 'mobile-menu',
+										'menu_class' 		=> 'mobile-menu',
+										'container' 		=> 'div',
+										'container_class' => 'mobile-list', 
+										'container_id' => 'mobile-list-menu',
+										'menu_id'        	=> 'mobile-menu',
+										'items_wrap' 		=> '<ul class="mobile-menu">%3$s</ul>',
+										
+									)
+								);
+							?>
+
+						</button>
 						<?php
 							wp_nav_menu(
 								array(
@@ -46,16 +70,12 @@
 								)
 							);
 						?>
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'finals_theme' ); ?></button>
-						<div class="hamburger">
-							<span class="bar"></span>
-							<span class="bar"></span>
-							<span class="bar"></span>
-						</div>
+
+						
 					</nav><!-- #site-navigation -->
 				</div>
 			</div>
 		</div>
 	</header><!-- #masthead -->
-	<script src="<?php echo get_template_directory_uri() ?>/js/index.js"></script>
+	
 

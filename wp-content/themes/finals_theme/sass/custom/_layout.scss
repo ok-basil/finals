@@ -1,0 +1,33 @@
+.togglemenu {
+	transition: all 0.5s ease-in;
+	animation: rotate_first 0.5s ease-in;
+	transform: rotate(45deg);
+}
+
+.togglemenu_rotate {
+	transition: all 0.5s ease-in;
+	animation: rotate_second 0.5s ease-in;
+	transform: rotate(-45deg);
+}
+
+@keyframes rotate_first {
+
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes rotate_second {
+
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(-45deg);
+	}
+}

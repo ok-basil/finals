@@ -53,6 +53,12 @@ function finals_theme_setup() {
 		)
 	);
 
+	register_nav_menus(
+		array(
+		  'mobile-menu' => esc_html__( 'Mobile Menu', 'finals_theme' ),
+		)
+  	);
+
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
