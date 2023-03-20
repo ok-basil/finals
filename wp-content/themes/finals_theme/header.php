@@ -48,15 +48,13 @@
 										'theme_location' 	=> 'mobile-menu',
 										'menu_class' 		=> 'mobile-menu',
 										'container' 		=> 'div',
-										'container_class' => 'mobile-list', 
-										'container_id' => 'mobile-list-menu',
+										'container_class' 	=> 'mobile-list', 
+										'container_id' 		=> 'mobile-list-menu',
 										'menu_id'        	=> 'mobile-menu',
 										'items_wrap' 		=> '<ul class="mobile-menu">%3$s</ul>',
-										
 									)
 								);
 							?>
-
 						</button>
 						<?php
 							wp_nav_menu(
@@ -70,8 +68,6 @@
 								)
 							);
 						?>
-
-						
 					</nav><!-- #site-navigation -->
 				</div>
 			</div>
