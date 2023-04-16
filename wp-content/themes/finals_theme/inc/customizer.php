@@ -35,7 +35,7 @@ function finals_theme_customize_register( $wp_customize ) {
 	/**
 	 * Add our Footer Panel
 	 */
-	$wp_customize->add_panel( 'footer_navigation_panel',
+	$wp_customize->add_panel( 'footer_navigation_panel' ,
 		array(
 			'title'			=>	__( 'Footer Navigation' ),
 			'description'	=>	esc_html__( 'Adjust your Footer Navigation section' ),
