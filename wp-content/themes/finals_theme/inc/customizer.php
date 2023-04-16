@@ -38,7 +38,7 @@ function finals_theme_customize_register( $wp_customize ) {
 	$wp_customize->add_panel( 'footer_navigation_panel',
 		array(
 			'title'			=>	__( 'Footer Navigation' ),
-			'description'	=>	esc_html__('Adjust your Footer Navigation section.'),
+			'description'	=>	esc_html__( 'Adjust your Footer Navigation section' ),
 			'priority'		=>	160,
 		)
 	);
