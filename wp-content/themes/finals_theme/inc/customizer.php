@@ -57,7 +57,7 @@ function finals_theme_customize_register( $wp_customize ) {
 	/**
 	 * Add our footer contact email setting
 	 */
-	$wp_customize->add_setting( 'footer_contact_email');
+	$wp_customize->add_setting( 'footer_contact_email' );
 
 	/**
 	 * Adding our controls
