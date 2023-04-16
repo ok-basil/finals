@@ -48,7 +48,7 @@ function finals_theme_customize_register( $wp_customize ) {
 	 */
 	$wp_customize->add_section( 'footer_section',
 		array(
-			'title' 		=>	__( 'Footer Section'),
+			'title' 		=>	__( 'Footer Section' ),
 			'description'	=>	esc_html__( 'This is where the footer section resides' ),
 			'panel'			=> 'footer_navigation_panel',
 		)
