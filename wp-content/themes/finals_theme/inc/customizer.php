@@ -71,7 +71,7 @@ function finals_theme_customize_register( $wp_customize ) {
 			'input_attrs' 		=> array(
 				'class'			=> 'address_field',
 				'style'			=> 'border: 1px solid purple',
-				'placeholder'	=>__( 'Input email address'),
+				'placeholder'	=>__( 'Input email address' ),
 			)
 		)
 	);
