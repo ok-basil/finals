@@ -68,7 +68,7 @@
 			<div class="site-wrapper">
 				<div class="new-div">
 					<div class="copyright-half" id="copyright-half">
-						<h6>© 2019 Studio 14 ltd - All rights reserved.</h6>
+						<h6>© 2023 Studio 14 ltd - All rights reserved.</h6>
 					</div>
 					<div class="privacy-half" id="privacy-half">
 						<span>
