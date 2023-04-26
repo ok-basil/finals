@@ -36,7 +36,7 @@
     <div class="site-wrapper">
         <div class="message" id="message">
             <h4>send us a message</h4>
-            <p>Whatever stage you're at, we're happy to chat.</p>
+            <p>Whatever stage you're at, we're very happy to chat.</p>
             <span>
                 <button> <p>GET IN TOUCH</p> <img src="<?php echo get_template_directory_uri(); ?> /assets/icons/show-more.png"></button>
             </span>
