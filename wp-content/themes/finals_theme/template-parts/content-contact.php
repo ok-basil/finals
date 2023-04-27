@@ -37,7 +37,7 @@ $post_id = get_the_ID();
         <div class="address-holder" id="address-holder">
             <div class="site-wrapper">
                 <div class="address-content">
-                    <h1>Office Addresses</h1>
+                    <h1>Office Address</h1>
                     <p><?php the_field('office_address', $post_id); ?></p>
                     <p>Email:<?php the_field('email_address', $post_id); ?></p>
                     <p>Tel:<?php the_field('phone_number', $post_id); ?></p>
