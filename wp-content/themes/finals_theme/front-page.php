@@ -2,7 +2,7 @@
 
 /**
  * Template name: Front Page
- * The template for displaying all single posts
+ * The template for displaying all single posts on the website
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
