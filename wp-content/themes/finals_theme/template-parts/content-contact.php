@@ -1,6 +1,6 @@
 <?php 
 /**
- * Template part for displaying the contact page
+ * Template part for displaying the contact page of the sitr
  * 
  * @package finals_theme
  */
